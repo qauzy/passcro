@@ -270,6 +270,177 @@ proxies:
   - {name: speednode_0266, server: eu-east-ruo.openssl3.com, port: 443, type: trojan, password: 9KogHwaY7hVD, skip-cert-verify: true, udp: true}
   - {name: speednode_0267, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 011eb011-c68e-4f92-80eb-f9bbef707bef, skip-cert-verify: false}
   - {name: speednode_0268, server: Shopify.com, port: 2086, type: vmess, uuid: f44898b5-8386-4228-b967-2bd0dcc8b1aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: EE.CLOUDFLARE.QUEST}}, udp: true}
+  - {name: speednode_0269, server: jrs1.egg.run, port: 80, type: vmess, 耶路撒冷arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jrs1.egg.run/, headers: {Host: jrs1.egg.run}}}
+  - {name: speednode_0270, server: jrs2.egg.run, port: 80, type: vmess, 耶路撒冷arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jrs2.egg.run/, headers: {Host: jrs2.egg.run}}}
+  - {name: speednode_0271, server: jrs3.egg.run, port: 80, type: vmess, 耶路撒冷arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jrs3.egg.run/, headers: {Host: jrs3.egg.run}}}
+  - {name: speednode_0272, server: jrs4.egg.run, port: 80, type: vmess, 耶路撒冷arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jrs4.egg.run/, headers: {Host: jrs4.egg.run}}}
+  - {name: speednode_0273, server: toronto1.egg.run, port: 80, type: vmess, 多伦多1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto1.egg.run/, headers: {Host: toronto1.egg.run}}}
+  - {name: speednode_0274, server: toronto2.egg.run, port: 80, type: vmess, 多伦多2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto2.egg.run/, headers: {Host: toronto2.egg.run}}}
+  - {name: speednode_0275, server: toronto-arm1.egg.run, port: 80, type: vmess, 多伦多arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm1.egg.run/, headers: {Host: toronto-arm1.egg.run}}}
+  - {name: speednode_0276, server: toronto-arm2.egg.run, port: 80, type: vmess, 多伦多arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm2.egg.run/, headers: {Host: toronto-arm2.egg.run}}}
+  - {name: speednode_0277, server: toronto-arm3.egg.run, port: 80, type: vmess, 多伦多arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm3.egg.run/, headers: {Host: toronto-arm3.egg.run}}}
+  - {name: speednode_0278, server: toronto-arm4.egg.run, port: 80, type: vmess, 多伦多arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm4.egg.run/, headers: {Host: toronto-arm4.egg.run}}}
+  - {name: speednode_0279, server: toronto-arm5.egg.run, port: 80, type: vmess, 多伦多arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm5.egg.run/, headers: {Host: toronto-arm5.egg.run}}}
+  - {name: speednode_0280, server: toronto-arm6.egg.run, port: 80, type: vmess, 多伦多arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: toronto-arm6.egg.run/, headers: {Host: toronto-arm6.egg.run}}}
+  - {name: speednode_0281, server: mtl.egg.run, port: 80, type: vmess, 蒙特利尔1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl.egg.run/, headers: {Host: mtl.egg.run}}}
+  - {name: speednode_0282, server: mtl2.egg.run, port: 80, type: vmess, 蒙特利尔2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl2.egg.run/, headers: {Host: mtl2.egg.run}}}
+  - {name: speednode_0283, server: mtl-arm1.egg.run, port: 80, type: vmess, 蒙特利尔arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm1.egg.run/, headers: {Host: mtl-arm1.egg.run}}}
+  - {name: speednode_0284, server: mtl-arm2.egg.run, port: 80, type: vmess, 蒙特利尔arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm2.egg.run/, headers: {Host: mtl-arm2.egg.run}}}
+  - {name: speednode_0285, server: mtl-arm3.egg.run, port: 80, type: vmess, 蒙特利尔arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm3.egg.run/, headers: {Host: mtl-arm3.egg.run}}}
+  - {name: speednode_0286, server: mtl-arm4.egg.run, port: 80, type: vmess, 蒙特利尔arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm4.egg.run/, headers: {Host: mtl-arm4.egg.run}}}
+  - {name: speednode_0287, server: mtl-arm5.egg.run, port: 80, type: vmess, 蒙特利尔arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm5.egg.run/, headers: {Host: mtl-arm5.egg.run}}}
+  - {name: speednode_0288, server: mtl-arm6.egg.run, port: 80, type: vmess, 蒙特利尔arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mtl-arm6.egg.run/, headers: {Host: mtl-arm6.egg.run}}}
+  - {name: speednode_0289, server: joburg1.egg.run, port: 80, type: vmess, 约翰内斯堡1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: joburg1.egg.run/, headers: {Host: joburg1.egg.run}}}
+  - {name: speednode_0290, server: joburg2.egg.run, port: 80, type: vmess, 约翰内斯堡2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: joburg2.egg.run/, headers: {Host: joburg2.egg.run}}}
+  - {name: speednode_0291, server: joburg-arm1.egg.run, port: 80, type: vmess, 约翰内斯堡arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: joburg-arm1.egg.run/, headers: {Host: joburg-arm1.egg.run}}}
+  - {name: speednode_0292, server: joburg-arm2.egg.run, port: 80, type: vmess, 约翰内斯堡arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: joburg-arm2.egg.run/, headers: {Host: joburg-arm2.egg.run}}}
+  - {name: speednode_0293, server: mumbai1.egg.run, port: 80, type: vmess, 孟买1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mumbai1.egg.run/, headers: {Host: mumbai1.egg.run}}}
+  - {name: speednode_0294, server: mumbai2.egg.run, port: 80, type: vmess, 孟买2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mumbai2.egg.run/, headers: {Host: mumbai2.egg.run}}}
+  - {name: speednode_0295, server: mumbai-arm1.egg.run, port: 80, type: vmess, 孟买arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mumbai-arm1.egg.run/, headers: {Host: mumbai-arm1.egg.run}}}
+  - {name: speednode_0296, server: mumbai-arm2.egg.run, port: 80, type: vmess, 孟买arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mumbai-arm2.egg.run/, headers: {Host: mumbai-arm2.egg.run}}}
+  - {name: speednode_0297, server: hyd1.egg.run, port: 80, type: vmess, 海得拉巴1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd1.egg.run/, headers: {Host: hyd1.egg.run}}}
+  - {name: speednode_0298, server: hyd2.egg.run, port: 80, type: vmess, 海得拉巴2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd2.egg.run/, headers: {Host: hyd2.egg.run}}}
+  - {name: speednode_0299, server: hyd3.egg.run, port: 80, type: vmess, 海得拉巴3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd3.egg.run/, headers: {Host: hyd3.egg.run}}}
+  - {name: speednode_0300, server: hyd4.egg.run, port: 80, type: vmess, 海得拉巴4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd4.egg.run/, headers: {Host: hyd4.egg.run}}}
+  - {name: speednode_0301, server: hyd-arm1.egg.run, port: 80, type: vmess, 海得拉巴arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd-arm1.egg.run/, headers: {Host: hyd-arm1.egg.run}}}
+  - {name: speednode_0302, server: hyd-arm2.egg.run, port: 80, type: vmess, 海得拉巴arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd-arm2.egg.run/, headers: {Host: hyd-arm2.egg.run}}}
+  - {name: speednode_0303, server: hyd-arm3.egg.run, port: 80, type: vmess, 海得拉巴arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd-arm3.egg.run/, headers: {Host: hyd-arm3.egg.run}}}
+  - {name: speednode_0304, server: hyd-arm4.egg.run, port: 80, type: vmess, 海得拉巴arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: hyd-arm4.egg.run/, headers: {Host: hyd-arm4.egg.run}}}
+  - {name: speednode_0305, server: sp1.egg.run, port: 80, type: vmess, 圣保罗1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sp1.egg.run/, headers: {Host: sp1.egg.run}}}
+  - {name: speednode_0306, server: sp2.egg.run, port: 80, type: vmess, 圣保罗2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sp2.egg.run/, headers: {Host: sp2.egg.run}}}
+  - {name: speednode_0307, server: sp-arm1.egg.run, port: 80, type: vmess, 圣保罗arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sp-arm1.egg.run/, headers: {Host: sp-arm1.egg.run}}}
+  - {name: speednode_0308, server: sp-arm2.egg.run, port: 80, type: vmess, 圣保罗arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sp-arm2.egg.run/, headers: {Host: sp-arm2.egg.run}}}
+  - {name: speednode_0309, server: vinhedo.egg.run, port: 80, type: vmess, 维涅杜1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: vinhedo.egg.run/, headers: {Host: vinhedo.egg.run}}}
+  - {name: speednode_0310, server: vinhedo-arm1.egg.run, port: 80, type: vmess, 维涅杜arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: vinhedo-arm1.egg.run/, headers: {Host: vinhedo-arm1.egg.run}}}
+  - {name: speednode_0311, server: vinhedo-arm2.egg.run, port: 80, type: vmess, 维涅杜arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: vinhedo-arm2.egg.run/, headers: {Host: vinhedo-arm2.egg.run}}}
+  - {name: speednode_0312, server: vinhedo-arm3.egg.run, port: 80, type: vmess, 维涅杜arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: vinhedo-arm3.egg.run/, headers: {Host: vinhedo-arm3.egg.run}}}
+  - {name: speednode_0313, server: fra1.egg.run, port: 80, type: vmess, 法兰克福1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra1.egg.run/, headers: {Host: fra1.egg.run}}}
+  - {name: speednode_0314, server: fra2.egg.run, port: 80, type: vmess, 法兰克福2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra2.egg.run/, headers: {Host: fra2.egg.run}}}
+  - {name: speednode_0315, server: fra-arm1.egg.run, port: 80, type: vmess, 法兰克福arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm1.egg.run/, headers: {Host: fra-arm1.egg.run}}}
+  - {name: speednode_0316, server: fra-arm2.egg.run, port: 80, type: vmess, 法兰克福arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm2.egg.run/, headers: {Host: fra-arm2.egg.run}}}
+  - {name: speednode_0317, server: fra-arm3.egg.run, port: 80, type: vmess, 法兰克福arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm3.egg.run/, headers: {Host: fra-arm3.egg.run}}}
+  - {name: speednode_0318, server: fra-arm4.egg.run, port: 80, type: vmess, 法兰克福arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm4.egg.run/, headers: {Host: fra-arm4.egg.run}}}
+  - {name: speednode_0319, server: fra-arm5.egg.run, port: 80, type: vmess, 法兰克福arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm5.egg.run/, headers: {Host: fra-arm5.egg.run}}}
+  - {name: speednode_0320, server: fra-arm6.egg.run, port: 80, type: vmess, 法兰克福arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: fra-arm6.egg.run/, headers: {Host: fra-arm6.egg.run}}}
+  - {name: speednode_0321, server: milan.egg.run, port: 80, type: vmess, 米兰: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: milan.egg.run/, headers: {Host: milan.egg.run}}}
+  - {name: speednode_0322, server: milan-arm1.egg.run, port: 80, type: vmess, 米兰arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: milan-arm1.egg.run/, headers: {Host: milan-arm1.egg.run}}}
+  - {name: speednode_0323, server: milan-arm2.egg.run, port: 80, type: vmess, 米兰arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: milan-arm2.egg.run/, headers: {Host: milan-arm2.egg.run}}}
+  - {name: speednode_0324, server: milan-arm3.egg.run, port: 80, type: vmess, 米兰arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: milan-arm3.egg.run/, headers: {Host: milan-arm3.egg.run}}}
+  - {name: speednode_0325, server: sg1.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg1.egg.run/, headers: {Host: sg1.egg.run}}}
+  - {name: speednode_0326, server: sg2.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg2.egg.run/, headers: {Host: sg2.egg.run}}}
+  - {name: speednode_0327, server: sg3.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg3.egg.run/, headers: {Host: sg3.egg.run}}}
+  - {name: speednode_0328, server: sg4.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg4.egg.run/, headers: {Host: sg4.egg.run}}}
+  - {name: speednode_0329, server: sg-arm1.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg-arm1.egg.run/, headers: {Host: sg-arm1.egg.run}}}
+  - {name: speednode_0330, server: sg-arm2.egg.run, port: 80, type: vmess, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sg-arm2.egg.run/, headers: {Host: sg-arm2.egg.run}}}
+  - {name: speednode_0331, server: tokyo.egg.run, port: 80, type: vmess, 东京1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: tokyo.egg.run/, headers: {Host: tokyo.egg.run}}}
+  - {name: speednode_0332, server: tokyo2.egg.run, port: 80, type: vmess, 东京2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: tokyo2.egg.run/, headers: {Host: tokyo2.egg.run}}}
+  - {name: speednode_0333, server: tokyo3.egg.run, port: 80, type: vmess, 东京3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: tokyo3.egg.run/, headers: {Host: tokyo3.egg.run}}}
+  - {name: speednode_0334, server: tokyo4.egg.run, port: 80, type: vmess, 东京4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: tokyo4.egg.run/, headers: {Host: tokyo4.egg.run}}}
+  - {name: speednode_0335, server: tokyo-arm.egg.run, port: 80, type: vmess, 东京arm: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: tokyo-arm.egg.run/, headers: {Host: tokyo-arm.egg.run}}}
+  - {name: speednode_0336, server: osaka.egg.run, port: 80, type: vmess, 大阪: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: osaka.egg.run/, headers: {Host: osaka.egg.run}}}
+  - {name: speednode_0337, server: osaka-arm1.egg.run, port: 80, type: vmess, 大阪arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: osaka-arm1.egg.run/, headers: {Host: osaka-arm1.egg.run}}}
+  - {name: speednode_0338, server: osaka-arm2.egg.run, port: 80, type: vmess, 大阪arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: osaka-arm2.egg.run/, headers: {Host: osaka-arm2.egg.run}}}
+  - {name: speednode_0339, server: osaka-arm3.egg.run, port: 80, type: vmess, 大阪arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: osaka-arm3.egg.run/, headers: {Host: osaka-arm3.egg.run}}}
+  - {name: speednode_0340, server: santiago1.egg.run, port: 80, type: vmess, 圣地亚哥1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: santiago1.egg.run/, headers: {Host: santiago1.egg.run}}}
+  - {name: speednode_0341, server: santiago2.egg.run, port: 80, type: vmess, 圣地亚哥2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: santiago2.egg.run/, headers: {Host: santiago2.egg.run}}}
+  - {name: speednode_0342, server: santiago-arm1.egg.run, port: 80, type: vmess, 圣地亚哥arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: santiago-arm1.egg.run/, headers: {Host: santiago-arm1.egg.run}}}
+  - {name: speednode_0343, server: santiago-arm2.egg.run, port: 80, type: vmess, 圣地亚哥arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: santiago-arm2.egg.run/, headers: {Host: santiago-arm2.egg.run}}}
+  - {name: speednode_0344, server: jeddah.egg.run, port: 80, type: vmess, 吉达: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jeddah.egg.run/, headers: {Host: jeddah.egg.run}}}
+  - {name: speednode_0345, server: jeddah-arm1.egg.run, port: 80, type: vmess, 吉达arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jeddah-arm1.egg.run/, headers: {Host: jeddah-arm1.egg.run}}}
+  - {name: speednode_0346, server: jeddah-arm2.egg.run, port: 80, type: vmess, 吉达arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jeddah-arm2.egg.run/, headers: {Host: jeddah-arm2.egg.run}}}
+  - {name: speednode_0347, server: jeddah-arm3.egg.run, port: 80, type: vmess, 吉达arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: jeddah-arm3.egg.run/, headers: {Host: jeddah-arm3.egg.run}}}
+  - {name: speednode_0348, server: par-arm1.egg.run, port: 80, type: vmess, 巴黎arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: par-arm1.egg.run/, headers: {Host: par-arm1.egg.run}}}
+  - {name: speednode_0349, server: par-arm2.egg.run, port: 80, type: vmess, 巴黎arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: par-arm2.egg.run/, headers: {Host: par-arm2.egg.run}}}
+  - {name: speednode_0350, server: par-arm3.egg.run, port: 80, type: vmess, 巴黎arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: par-arm3.egg.run/, headers: {Host: par-arm3.egg.run}}}
+  - {name: speednode_0351, server: par-arm4.egg.run, port: 80, type: vmess, 巴黎arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: par-arm4.egg.run/, headers: {Host: par-arm4.egg.run}}}
+  - {name: speednode_0352, server: mrs.egg.run, port: 80, type: vmess, 马赛: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mrs.egg.run/, headers: {Host: mrs.egg.run}}}
+  - {name: speednode_0353, server: mrs-arm1.egg.run, port: 80, type: vmess, 马赛arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mrs-arm1.egg.run/, headers: {Host: mrs-arm1.egg.run}}}
+  - {name: speednode_0354, server: mrs-arm2.egg.run, port: 80, type: vmess, 马赛arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mrs-arm2.egg.run/, headers: {Host: mrs-arm2.egg.run}}}
+  - {name: speednode_0355, server: mrs-arm3.egg.run, port: 80, type: vmess, 马赛arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mrs-arm3.egg.run/, headers: {Host: mrs-arm3.egg.run}}}
+  - {name: speednode_0356, server: mel.egg.run, port: 80, type: vmess, 墨尔本: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mel.egg.run/, headers: {Host: mel.egg.run}}}
+  - {name: speednode_0357, server: mel-arm1.egg.run, port: 80, type: vmess, 墨尔本arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mel-arm1.egg.run/, headers: {Host: mel-arm1.egg.run}}}
+  - {name: speednode_0358, server: mel-arm2.egg.run, port: 80, type: vmess, 墨尔本arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mel-arm2.egg.run/, headers: {Host: mel-arm2.egg.run}}}
+  - {name: speednode_0359, server: mel-arm3.egg.run, port: 80, type: vmess, 墨尔本arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: mel-arm3.egg.run/, headers: {Host: mel-arm3.egg.run}}}
+  - {name: speednode_0360, server: sydney.egg.run, port: 80, type: vmess, 悉尼: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sydney.egg.run/, headers: {Host: sydney.egg.run}}}
+  - {name: speednode_0361, server: sydney-arm1.egg.run, port: 80, type: vmess, 悉尼arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sydney-arm1.egg.run/, headers: {Host: sydney-arm1.egg.run}}}
+  - {name: speednode_0362, server: sydney-arm2.egg.run, port: 80, type: vmess, 悉尼arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sydney-arm2.egg.run/, headers: {Host: sydney-arm2.egg.run}}}
+  - {name: speednode_0363, server: sydney-arm3.egg.run, port: 80, type: vmess, 悉尼arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sydney-arm3.egg.run/, headers: {Host: sydney-arm3.egg.run}}}
+  - {name: speednode_0364, server: stockholm2.egg.run, port: 80, type: vmess, 斯德哥尔摩: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: stockholm2.egg.run/, headers: {Host: stockholm2.egg.run}}}
+  - {name: speednode_0365, server: stockholm1.egg.run, port: 80, type: vmess, 斯德哥尔摩1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: stockholm1.egg.run/, headers: {Host: stockholm1.egg.run}}}
+  - {name: speednode_0366, server: stockholm-arm1.egg.run, port: 80, type: vmess, 斯德哥尔摩arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: stockholm-arm1.egg.run/, headers: {Host: stockholm-arm1.egg.run}}}
+  - {name: speednode_0367, server: stockholm-arm2.egg.run, port: 80, type: vmess, 斯德哥尔摩arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: stockholm-arm2.egg.run/, headers: {Host: stockholm-arm2.egg.run}}}
+  - {name: speednode_0368, server: zurich1.egg.run, port: 80, type: vmess, 苏黎世1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich1.egg.run/, headers: {Host: zurich1.egg.run}}}
+  - {name: speednode_0369, server: zurich2.egg.run, port: 80, type: vmess, 苏黎世2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich2.egg.run/, headers: {Host: zurich2.egg.run}}}
+  - {name: speednode_0370, server: zurich-arm1.egg.run, port: 80, type: vmess, 苏黎世arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm1.egg.run/, headers: {Host: zurich-arm1.egg.run}}}
+  - {name: speednode_0371, server: zurich-arm2.egg.run, port: 80, type: vmess, 苏黎世arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm2.egg.run/, headers: {Host: zurich-arm2.egg.run}}}
+  - {name: speednode_0372, server: zurich-arm3.egg.run, port: 80, type: vmess, 苏黎世arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm3.egg.run/, headers: {Host: zurich-arm3.egg.run}}}
+  - {name: speednode_0373, server: zurich-arm4.egg.run, port: 80, type: vmess, 苏黎世arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm4.egg.run/, headers: {Host: zurich-arm4.egg.run}}}
+  - {name: speednode_0374, server: zurich-arm5.egg.run, port: 80, type: vmess, 苏黎世arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm5.egg.run/, headers: {Host: zurich-arm5.egg.run}}}
+  - {name: speednode_0375, server: zurich-arm6.egg.run, port: 80, type: vmess, 苏黎世arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: zurich-arm6.egg.run/, headers: {Host: zurich-arm6.egg.run}}}
+  - {name: speednode_0376, server: phx1.egg.run, port: 80, type: vmess, 凤凰城1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx1.egg.run/, headers: {Host: phx1.egg.run}}}
+  - {name: speednode_0377, server: phx2.egg.run, port: 80, type: vmess, 凤凰城2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx2.egg.run/, headers: {Host: phx2.egg.run}}}
+  - {name: speednode_0378, server: phx3.egg.run, port: 80, type: vmess, 凤凰城3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx3.egg.run/, headers: {Host: phx3.egg.run}}}
+  - {name: speednode_0379, server: phx4.egg.run, port: 80, type: vmess, 凤凰城4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx4.egg.run/, headers: {Host: phx4.egg.run}}}
+  - {name: speednode_0380, server: phx-arm1.egg.run, port: 80, type: vmess, 凤凰城arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx-arm1.egg.run/, headers: {Host: phx-arm1.egg.run}}}
+  - {name: speednode_0381, server: phx-arm2.egg.run, port: 80, type: vmess, 凤凰城arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx-arm2.egg.run/, headers: {Host: phx-arm2.egg.run}}}
+  - {name: speednode_0382, server: phx-arm3.egg.run, port: 80, type: vmess, 凤凰城arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx-arm3.egg.run/, headers: {Host: phx-arm3.egg.run}}}
+  - {name: speednode_0383, server: phx-arm4.egg.run, port: 80, type: vmess, 凤凰城arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: phx-arm4.egg.run/, headers: {Host: phx-arm4.egg.run}}}
+  - {name: speednode_0384, server: sj.egg.run, port: 80, type: vmess, 圣何塞: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sj.egg.run/, headers: {Host: sj.egg.run}}}
+  - {name: speednode_0385, server: sj1.egg.run, port: 80, type: vmess, 圣何塞1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sj1.egg.run/, headers: {Host: sj1.egg.run}}}
+  - {name: speednode_0386, server: sj2.egg.run, port: 80, type: vmess, 圣何塞2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sj2.egg.run/, headers: {Host: sj2.egg.run}}}
+  - {name: speednode_0387, server: sj-arm1.egg.run, port: 80, type: vmess, 圣何塞arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sj-arm1.egg.run/, headers: {Host: sj-arm1.egg.run}}}
+  - {name: speednode_0388, server: sj-arm2.egg.run, port: 80, type: vmess, 圣何塞arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: sj-arm2.egg.run/, headers: {Host: sj-arm2.egg.run}}}
+  - {name: speednode_0389, server: ashburn.egg.run, port: 80, type: vmess, 阿什本: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn.egg.run/, headers: {Host: ashburn.egg.run}}}
+  - {name: speednode_0390, server: ashburn1.egg.run, port: 80, type: vmess, 阿什本1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn1.egg.run/, headers: {Host: ashburn1.egg.run}}}
+  - {name: speednode_0391, server: ashburn2.egg.run, port: 80, type: vmess, 阿什本2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn2.egg.run/, headers: {Host: ashburn2.egg.run}}}
+  - {name: speednode_0392, server: ashburn-arm1.egg.run, port: 80, type: vmess, 阿什本arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn-arm1.egg.run/, headers: {Host: ashburn-arm1.egg.run}}}
+  - {name: speednode_0393, server: ashburn-arm2.egg.run, port: 80, type: vmess, 阿什本arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn-arm2.egg.run/, headers: {Host: ashburn-arm2.egg.run}}}
+  - {name: speednode_0394, server: ashburn-arm3.egg.run, port: 80, type: vmess, 阿什本arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn-arm3.egg.run/, headers: {Host: ashburn-arm3.egg.run}}}
+  - {name: speednode_0395, server: ashburn-arm4.egg.run, port: 80, type: vmess, 阿什本arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ashburn-arm4.egg.run/, headers: {Host: ashburn-arm4.egg.run}}}
+  - {name: speednode_0396, server: ld1.egg.run, port: 80, type: vmess, 伦敦1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld1.egg.run/, headers: {Host: ld1.egg.run}}}
+  - {name: speednode_0397, server: ld2.egg.run, port: 80, type: vmess, 伦敦2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld2.egg.run/, headers: {Host: ld2.egg.run}}}
+  - {name: speednode_0398, server: ld3.egg.run, port: 80, type: vmess, 伦敦3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld3.egg.run/, headers: {Host: ld3.egg.run}}}
+  - {name: speednode_0399, server: ld4.egg.run, port: 80, type: vmess, 伦敦4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld4.egg.run/, headers: {Host: ld4.egg.run}}}
+  - {name: speednode_0400, server: ld-arm1.egg.run, port: 80, type: vmess, 伦敦arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm1.egg.run/, headers: {Host: ld-arm1.egg.run}}}
+  - {name: speednode_0401, server: ld-arm2.egg.run, port: 80, type: vmess, 伦敦arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm2.egg.run/, headers: {Host: ld-arm2.egg.run}}}
+  - {name: speednode_0402, server: ld-arm3.egg.run, port: 80, type: vmess, 伦敦arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm3.egg.run/, headers: {Host: ld-arm3.egg.run}}}
+  - {name: speednode_0403, server: ld-arm4.egg.run, port: 80, type: vmess, 伦敦arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm4.egg.run/, headers: {Host: ld-arm4.egg.run}}}
+  - {name: speednode_0404, server: ld-arm5.egg.run, port: 80, type: vmess, 伦敦arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm5.egg.run/, headers: {Host: ld-arm5.egg.run}}}
+  - {name: speednode_0405, server: ld-arm6.egg.run, port: 80, type: vmess, 伦敦arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm6.egg.run/, headers: {Host: ld-arm6.egg.run}}}
+  - {name: speednode_0406, server: ld-arm7.egg.run, port: 80, type: vmess, 伦敦arm7: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm7.egg.run/, headers: {Host: ld-arm7.egg.run}}}
+  - {name: speednode_0407, server: ld-arm8.egg.run, port: 80, type: vmess, 伦敦arm8: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ld-arm8.egg.run/, headers: {Host: ld-arm8.egg.run}}}
+  - {name: speednode_0408, server: cardiff1.egg.run, port: 80, type: vmess, 加的夫1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: cardiff1.egg.run/, headers: {Host: cardiff1.egg.run}}}
+  - {name: speednode_0409, server: cardiff2.egg.run, port: 80, type: vmess, 加的夫2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: cardiff2.egg.run/, headers: {Host: cardiff2.egg.run}}}
+  - {name: speednode_0410, server: cardiff-arm1.egg.run, port: 80, type: vmess, 加的夫arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: cardiff-arm1.egg.run/, headers: {Host: cardiff-arm1.egg.run}}}
+  - {name: speednode_0411, server: cardiff-arm2.egg.run, port: 80, type: vmess, 加的夫arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: cardiff-arm2.egg.run/, headers: {Host: cardiff-arm2.egg.run}}}
+  - {name: speednode_0412, server: amsterdam1.egg.run, port: 80, type: vmess, 阿姆斯特丹1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: amsterdam1.egg.run/, headers: {Host: amsterdam1.egg.run}}}
+  - {name: speednode_0413, server: amsterdam2.egg.run, port: 80, type: vmess, 阿姆斯特丹2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: amsterdam2.egg.run/, headers: {Host: amsterdam2.egg.run}}}
+  - {name: speednode_0414, server: ams-arm1.egg.run, port: 80, type: vmess, 阿姆斯特丹arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm1.egg.run/, headers: {Host: ams-arm1.egg.run}}}
+  - {name: speednode_0415, server: ams-arm2.egg.run, port: 80, type: vmess, 阿姆斯特丹arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm2.egg.run/, headers: {Host: ams-arm2.egg.run}}}
+  - {name: speednode_0416, server: ams-arm3.egg.run, port: 80, type: vmess, 阿姆斯特丹arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm3.egg.run/, headers: {Host: ams-arm3.egg.run}}}
+  - {name: speednode_0417, server: ams-arm4.egg.run, port: 80, type: vmess, 阿姆斯特丹arm4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm4.egg.run/, headers: {Host: ams-arm4.egg.run}}}
+  - {name: speednode_0418, server: ams-arm5.egg.run, port: 80, type: vmess, 阿姆斯特丹arm5: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm5.egg.run/, headers: {Host: ams-arm5.egg.run}}}
+  - {name: speednode_0419, server: ams-arm6.egg.run, port: 80, type: vmess, 阿姆斯特丹arm6: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: ams-arm6.egg.run/, headers: {Host: ams-arm6.egg.run}}}
+  - {name: speednode_0420, server: madrid1.egg.run, port: 80, type: vmess, 马德里1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: madrid1.egg.run/, headers: {Host: madrid1.egg.run}}}
+  - {name: speednode_0421, server: madrid2.egg.run, port: 80, type: vmess, 马德里2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: madrid2.egg.run/, headers: {Host: madrid2.egg.run}}}
+  - {name: speednode_0422, server: dubai-amd.egg.run, port: 80, type: vmess, 迪拜: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: dubai-amd.egg.run/, headers: {Host: dubai-amd.egg.run}}}
+  - {name: speednode_0423, server: dubai-arm1.egg.run, port: 80, type: vmess, 迪拜arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: dubai-arm1.egg.run/, headers: {Host: dubai-arm1.egg.run}}}
+  - {name: speednode_0424, server: dubai-arm2.egg.run, port: 80, type: vmess, 迪拜arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: dubai-arm2.egg.run/, headers: {Host: dubai-arm2.egg.run}}}
+  - {name: speednode_0425, server: dubai-arm3.egg.run, port: 80, type: vmess, 迪拜arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: dubai-arm3.egg.run/, headers: {Host: dubai-arm3.egg.run}}}
+  - {name: speednode_0426, server: auh.egg.run, port: 80, type: vmess, 阿布扎比: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: auh.egg.run/, headers: {Host: auh.egg.run}}}
+  - {name: speednode_0427, server: auh-arm1.egg.run, port: 80, type: vmess, 阿布扎比arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: auh-arm1.egg.run/, headers: {Host: auh-arm1.egg.run}}}
+  - {name: speednode_0428, server: auh-arm2.egg.run, port: 80, type: vmess, 阿布扎比arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: auh-arm2.egg.run/, headers: {Host: auh-arm2.egg.run}}}
+  - {name: speednode_0429, server: auh-arm3.egg.run, port: 80, type: vmess, 阿布扎比arm3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: auh-arm3.egg.run/, headers: {Host: auh-arm3.egg.run}}}
+  - {name: speednode_0430, server: chuncheon.egg.run, port: 80, type: vmess, 春川1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: chuncheon.egg.run/, headers: {Host: chuncheon.egg.run}}}
+  - {name: speednode_0431, server: chuncheon2.egg.run, port: 80, type: vmess, 春川2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: chuncheon2.egg.run/, headers: {Host: chuncheon2.egg.run}}}
+  - {name: speednode_0432, server: chuncheon-arm1.egg.run, port: 80, type: vmess, 春川arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: chuncheon-arm1.egg.run/, headers: {Host: chuncheon-arm1.egg.run}}}
+  - {name: speednode_0433, server: chuncheon-arm2.egg.run, port: 80, type: vmess, 春川arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: chuncheon-arm2.egg.run/, headers: {Host: chuncheon-arm2.egg.run}}}
+  - {name: speednode_0434, server: kr.egg.run, port: 80, type: vmess, 首尔1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: kr.egg.run/, headers: {Host: kr.egg.run}}}
+  - {name: speednode_0435, server: kr2.egg.run, port: 80, type: vmess, 首尔2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: kr2.egg.run/, headers: {Host: kr2.egg.run}}}
+  - {name: speednode_0436, server: seoul3.egg.run, port: 80, type: vmess, 首尔3: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: seoul3.egg.run/, headers: {Host: seoul3.egg.run}}}
+  - {name: speednode_0437, server: seoul4.egg.run, port: 80, type: vmess, 首尔4: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: seoul4.egg.run/, headers: {Host: seoul4.egg.run}}}
+  - {name: speednode_0438, server: seoul-arm1.egg.run, port: 80, type: vmess, 首尔arm1: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: seoul-arm1.egg.run/, headers: {Host: seoul-arm1.egg.run}}}
+  - {name: speednode_0439, server: seoul-arm2.egg.run, port: 80, type: vmess, 首尔arm2: None, uuid: 2582d782-5579-3e53-a6d7-1d8eda355bf3, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: seoul-arm2.egg.run/, headers: {Host: seoul-arm2.egg.run}}}
 proxy-groups:
 - name: Proxy
   type: select
@@ -543,6 +714,177 @@ proxy-groups:
   - speednode_0266
   - speednode_0267
   - speednode_0268
+  - speednode_0269
+  - speednode_0270
+  - speednode_0271
+  - speednode_0272
+  - speednode_0273
+  - speednode_0274
+  - speednode_0275
+  - speednode_0276
+  - speednode_0277
+  - speednode_0278
+  - speednode_0279
+  - speednode_0280
+  - speednode_0281
+  - speednode_0282
+  - speednode_0283
+  - speednode_0284
+  - speednode_0285
+  - speednode_0286
+  - speednode_0287
+  - speednode_0288
+  - speednode_0289
+  - speednode_0290
+  - speednode_0291
+  - speednode_0292
+  - speednode_0293
+  - speednode_0294
+  - speednode_0295
+  - speednode_0296
+  - speednode_0297
+  - speednode_0298
+  - speednode_0299
+  - speednode_0300
+  - speednode_0301
+  - speednode_0302
+  - speednode_0303
+  - speednode_0304
+  - speednode_0305
+  - speednode_0306
+  - speednode_0307
+  - speednode_0308
+  - speednode_0309
+  - speednode_0310
+  - speednode_0311
+  - speednode_0312
+  - speednode_0313
+  - speednode_0314
+  - speednode_0315
+  - speednode_0316
+  - speednode_0317
+  - speednode_0318
+  - speednode_0319
+  - speednode_0320
+  - speednode_0321
+  - speednode_0322
+  - speednode_0323
+  - speednode_0324
+  - speednode_0325
+  - speednode_0326
+  - speednode_0327
+  - speednode_0328
+  - speednode_0329
+  - speednode_0330
+  - speednode_0331
+  - speednode_0332
+  - speednode_0333
+  - speednode_0334
+  - speednode_0335
+  - speednode_0336
+  - speednode_0337
+  - speednode_0338
+  - speednode_0339
+  - speednode_0340
+  - speednode_0341
+  - speednode_0342
+  - speednode_0343
+  - speednode_0344
+  - speednode_0345
+  - speednode_0346
+  - speednode_0347
+  - speednode_0348
+  - speednode_0349
+  - speednode_0350
+  - speednode_0351
+  - speednode_0352
+  - speednode_0353
+  - speednode_0354
+  - speednode_0355
+  - speednode_0356
+  - speednode_0357
+  - speednode_0358
+  - speednode_0359
+  - speednode_0360
+  - speednode_0361
+  - speednode_0362
+  - speednode_0363
+  - speednode_0364
+  - speednode_0365
+  - speednode_0366
+  - speednode_0367
+  - speednode_0368
+  - speednode_0369
+  - speednode_0370
+  - speednode_0371
+  - speednode_0372
+  - speednode_0373
+  - speednode_0374
+  - speednode_0375
+  - speednode_0376
+  - speednode_0377
+  - speednode_0378
+  - speednode_0379
+  - speednode_0380
+  - speednode_0381
+  - speednode_0382
+  - speednode_0383
+  - speednode_0384
+  - speednode_0385
+  - speednode_0386
+  - speednode_0387
+  - speednode_0388
+  - speednode_0389
+  - speednode_0390
+  - speednode_0391
+  - speednode_0392
+  - speednode_0393
+  - speednode_0394
+  - speednode_0395
+  - speednode_0396
+  - speednode_0397
+  - speednode_0398
+  - speednode_0399
+  - speednode_0400
+  - speednode_0401
+  - speednode_0402
+  - speednode_0403
+  - speednode_0404
+  - speednode_0405
+  - speednode_0406
+  - speednode_0407
+  - speednode_0408
+  - speednode_0409
+  - speednode_0410
+  - speednode_0411
+  - speednode_0412
+  - speednode_0413
+  - speednode_0414
+  - speednode_0415
+  - speednode_0416
+  - speednode_0417
+  - speednode_0418
+  - speednode_0419
+  - speednode_0420
+  - speednode_0421
+  - speednode_0422
+  - speednode_0423
+  - speednode_0424
+  - speednode_0425
+  - speednode_0426
+  - speednode_0427
+  - speednode_0428
+  - speednode_0429
+  - speednode_0430
+  - speednode_0431
+  - speednode_0432
+  - speednode_0433
+  - speednode_0434
+  - speednode_0435
+  - speednode_0436
+  - speednode_0437
+  - speednode_0438
+  - speednode_0439
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -814,6 +1156,177 @@ proxy-groups:
   - speednode_0266
   - speednode_0267
   - speednode_0268
+  - speednode_0269
+  - speednode_0270
+  - speednode_0271
+  - speednode_0272
+  - speednode_0273
+  - speednode_0274
+  - speednode_0275
+  - speednode_0276
+  - speednode_0277
+  - speednode_0278
+  - speednode_0279
+  - speednode_0280
+  - speednode_0281
+  - speednode_0282
+  - speednode_0283
+  - speednode_0284
+  - speednode_0285
+  - speednode_0286
+  - speednode_0287
+  - speednode_0288
+  - speednode_0289
+  - speednode_0290
+  - speednode_0291
+  - speednode_0292
+  - speednode_0293
+  - speednode_0294
+  - speednode_0295
+  - speednode_0296
+  - speednode_0297
+  - speednode_0298
+  - speednode_0299
+  - speednode_0300
+  - speednode_0301
+  - speednode_0302
+  - speednode_0303
+  - speednode_0304
+  - speednode_0305
+  - speednode_0306
+  - speednode_0307
+  - speednode_0308
+  - speednode_0309
+  - speednode_0310
+  - speednode_0311
+  - speednode_0312
+  - speednode_0313
+  - speednode_0314
+  - speednode_0315
+  - speednode_0316
+  - speednode_0317
+  - speednode_0318
+  - speednode_0319
+  - speednode_0320
+  - speednode_0321
+  - speednode_0322
+  - speednode_0323
+  - speednode_0324
+  - speednode_0325
+  - speednode_0326
+  - speednode_0327
+  - speednode_0328
+  - speednode_0329
+  - speednode_0330
+  - speednode_0331
+  - speednode_0332
+  - speednode_0333
+  - speednode_0334
+  - speednode_0335
+  - speednode_0336
+  - speednode_0337
+  - speednode_0338
+  - speednode_0339
+  - speednode_0340
+  - speednode_0341
+  - speednode_0342
+  - speednode_0343
+  - speednode_0344
+  - speednode_0345
+  - speednode_0346
+  - speednode_0347
+  - speednode_0348
+  - speednode_0349
+  - speednode_0350
+  - speednode_0351
+  - speednode_0352
+  - speednode_0353
+  - speednode_0354
+  - speednode_0355
+  - speednode_0356
+  - speednode_0357
+  - speednode_0358
+  - speednode_0359
+  - speednode_0360
+  - speednode_0361
+  - speednode_0362
+  - speednode_0363
+  - speednode_0364
+  - speednode_0365
+  - speednode_0366
+  - speednode_0367
+  - speednode_0368
+  - speednode_0369
+  - speednode_0370
+  - speednode_0371
+  - speednode_0372
+  - speednode_0373
+  - speednode_0374
+  - speednode_0375
+  - speednode_0376
+  - speednode_0377
+  - speednode_0378
+  - speednode_0379
+  - speednode_0380
+  - speednode_0381
+  - speednode_0382
+  - speednode_0383
+  - speednode_0384
+  - speednode_0385
+  - speednode_0386
+  - speednode_0387
+  - speednode_0388
+  - speednode_0389
+  - speednode_0390
+  - speednode_0391
+  - speednode_0392
+  - speednode_0393
+  - speednode_0394
+  - speednode_0395
+  - speednode_0396
+  - speednode_0397
+  - speednode_0398
+  - speednode_0399
+  - speednode_0400
+  - speednode_0401
+  - speednode_0402
+  - speednode_0403
+  - speednode_0404
+  - speednode_0405
+  - speednode_0406
+  - speednode_0407
+  - speednode_0408
+  - speednode_0409
+  - speednode_0410
+  - speednode_0411
+  - speednode_0412
+  - speednode_0413
+  - speednode_0414
+  - speednode_0415
+  - speednode_0416
+  - speednode_0417
+  - speednode_0418
+  - speednode_0419
+  - speednode_0420
+  - speednode_0421
+  - speednode_0422
+  - speednode_0423
+  - speednode_0424
+  - speednode_0425
+  - speednode_0426
+  - speednode_0427
+  - speednode_0428
+  - speednode_0429
+  - speednode_0430
+  - speednode_0431
+  - speednode_0432
+  - speednode_0433
+  - speednode_0434
+  - speednode_0435
+  - speednode_0436
+  - speednode_0437
+  - speednode_0438
+  - speednode_0439
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
