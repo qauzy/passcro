@@ -2,29 +2,29 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: iepl3.wocao1688.xyz, port: 9041, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: http_simple, password: ygUo3W, obfs-param: 6d8be138389.microsoft.com, protocol-param: 138389:sSgFhW}
-  - {name: speednode_0002, server: 8.218.226.112, port: 20329, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: 2f999df9-07d0-42a5-8423-2b0b69b9fa0a, alterId: 0, cipher: auto, network: http}
-  - {name: speednode_0003, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: PT09PQ==, password: eAokbaDN6, protocol: origin, protocol-param: PT09PQ==}
-  - {name: speednode_0004, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: "", udp: true}
-  - {name: speednode_0005, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: eAokbaDN6, protocol: origin}
-  - {name: speednode_0006, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: speednode_0007, server: 130.162.134.218, port: 42411, type: vmess, ws-opts: {path: /hgg, headers: {host: 130.162.134.218}}, uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0008, server: 130.162.134.218, port: 1453, type: vmess, ws-opts: {path: /blue, headers: {host: 130.162.134.218}}, uuid: 6aeba368-896c-425d-fa32-3b7bfed3b9df, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0009, server: node2.onezz.top, port: 22020, type: vmess, ws-opts: {path: /chat, headers: {host: microsoft.com}}, uuid: d255347c-cf10-3f3b-9ca9-88848a2303af, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0010, server: t.cccao.cyou, port: 16627, type: vmess, ws-opts: {path: /, headers: {host: t.cccao.cyou}}, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0011, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}}
-  - {name: speednode_0012, server: 8.218.206.118, port: 60148, type: vmess, cipher: auto, uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1, alterId: 0, tls: false, skip-cert-verify: true, servername: 8.218.206.118, network: http}
-  - {name: speednode_0013, server: 8.218.225.146, port: 25076, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, alterId: 0, cipher: auto, network: http}
-  - {name: speednode_0014, server: 8.218.228.49, port: 31578, type: vmess, cipher: auto, uuid: 63947df8-2609-4770-ac20-800bcffed655, alterId: 0, tls: false, skip-cert-verify: true, servername: 8.218.228.49, network: http}
-  - {name: speednode_0015, server: 8.218.206.118, port: 60148, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1, alterId: 0, cipher: auto, network: http}
-  - {name: speednode_0016, server: 8.218.204.207, port: 34579, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: d1feb230-d383-4c0f-8ad1-344d65e96b01, ws-opts: {path: /, headers: {host: None}}}
-  - {name: speednode_0017, server: 8.218.226.112, port: 20329, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: 2f999df9-07d0-42a5-8423-2b0b69b9fa0a, ws-opts: {path: /, headers: {host: None}}}
-  - {name: speednode_0018, server: premium1.htpn.me, port: 443, type: vmess, uuid: 91bae295-c167-4df8-9b98-217afab79717, alterId: 0, cipher: auto, tls: true, servername: premium1.htpn.me, network: grpc, grpc-opts: {grpc-service-name: htpn.site}}
-  - {name: speednode_0019, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0020, server: 43.153.224.144, port: 45729, type: vmess, ws-opts: {path: /sg1/getData, headers: {host: sg1.linkeden.co}}, uuid: d2051816-2906-462b-8695-aa7caeb5b902, alterId: 64, cipher: auto, network: ws, tls: true}
-  - {name: speednode_0021, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0022, server: 8.218.225.146, port: 25076, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, ws-opts: {path: /, headers: {host: None}}}
-  - {name: speednode_0023, server: 43.155.102.33, port: 23802, type: vmess, ws-opts: {path: /hk6/getData, headers: {host: hk6.verichains.co}}, uuid: 4592247e-1528-4943-8bf3-cd9bb58b31c0, alterId: 64, cipher: auto, network: ws, tls: true}
+  - {name: speednode_0001, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0002, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}}
+  - {name: speednode_0003, server: cn1.applebench.tech, port: 41502, type: vmess, uuid: 9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0004, server: iepl3.wocao1688.xyz, port: 9041, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: http_simple, password: ygUo3W, obfs-param: 6d8be138389.microsoft.com, protocol-param: 138389:sSgFhW}
+  - {name: speednode_0005, server: cn1.applebench.tech, port: 11451, type: ss, cipher: chacha20-ietf-poly1305, password: 9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f, udp: true}
+  - {name: speednode_0006, server: t.cccao.cyou, port: 16627, type: vmess, ws-opts: {path: /, headers: {host: t.cccao.cyou}}, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, network: ws}
+  - {name: speednode_0007, server: 8.218.225.146, port: 25076, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, alterId: 0, cipher: auto, network: http}
+  - {name: speednode_0008, server: 170.187.229.90, port: 80, type: vmess, uuid: f0f45dc6-2a7e-4ad1-be94-226467e58eba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}}
+  - {name: speednode_0009, server: 43.155.102.33, port: 23802, type: vmess, ws-opts: {path: /hk6/getData, headers: {host: hk6.verichains.co}}, uuid: 4592247e-1528-4943-8bf3-cd9bb58b31c0, alterId: 64, cipher: auto, network: ws, tls: true}
+  - {name: speednode_0010, server: cf-topspeed.uk, port: 443, type: vmess, ws-opts: {path: /current_time}, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, network: ws, tls: true}
+  - {name: speednode_0011, server: october.mytargoocloud.live, port: 80, type: vmess, ws-opts: {path: "/?ed=2048", headers: {host: jpm2.nascloudreve.live}}, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, network: ws}
+  - {name: speednode_0012, server: 8.218.206.118, port: 60148, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1, alterId: 0, cipher: auto, network: http}
+  - {name: speednode_0013, server: 8.218.228.49, port: 31578, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: 63947df8-2609-4770-ac20-800bcffed655, alterId: 0, cipher: auto, network: http}
+  - {name: speednode_0014, server: 8.218.225.242, port: 33712, type: vmess, http-opts: {path: [/], headers: {Host: [🇭🇰HK香港(youtube阿伟科技)]}}, uuid: 9639a882-a0bc-4d26-8955-24a49d6cfe4c, alterId: 0, cipher: auto, network: http}
+  - {name: speednode_0015, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0016, server: 8.218.206.118, port: 60148, type: vmess, uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: speednode_0017, server: premium1.htpn.me, port: 443, type: vmess, uuid: 91bae295-c167-4df8-9b98-217afab79717, alterId: 0, cipher: auto, tls: true, servername: premium1.htpn.me, network: grpc, grpc-opts: {grpc-service-name: htpn.site}}
+  - {name: speednode_0018, server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org, port: 443, type: trojan, password: 6fab5b8e-2b5a-4ecd-82cb-fa3d1afb9ca7, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0019, server: shop.coienx.de, port: 2052, type: vmess, uuid: e526a74d-1e43-4e76-8904-749f946640cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shop.coienx.de}}, udp: true}
+  - {name: speednode_0020, server: 8.218.226.112, port: 20329, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: 2f999df9-07d0-42a5-8423-2b0b69b9fa0a, ws-opts: {path: /, headers: {host: None}}}
+  - {name: speednode_0021, server: 8.218.225.146, port: 25076, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: de035cbd-9c64-45b3-8485-bae38a33bd3b, ws-opts: {path: /, headers: {host: None}}}
+  - {name: speednode_0022, server: 8.218.227.58, port: 57005, type: vmess, alterId: 0, cipher: auto, network: http, tls: 0, uuid: fcb1a085-2c74-4ed5-829c-bcff003cfbad, ws-opts: {path: /, headers: {host: None}}}
+  - {name: speednode_0023, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, alterId: 1, cipher: auto, network: ws, tls: 0, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {host: awkj}}}
 proxy-groups:
 - name: Proxy
   type: select
