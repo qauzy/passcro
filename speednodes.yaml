@@ -25,13 +25,6 @@ proxies:
   - {name: speednode_0021, server: 162.159.255.205, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, tls: 0, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, ws-opts: {path: /, headers: {host: us-1.acyun.eu.org}}}
   - {name: speednode_0022, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, cipher: auto, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, tls: false, skip-cert-verify: true, network: tcp}
   - {name: speednode_0023, server: 104.21.235.172, port: 80, type: vmess, ws-opts: {path: /worryfree, headers: {host: idc1.tunnel.systems}}, uuid: c5f23186-2ac8-46e4-b73c-65a2fbd90dd0, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0024, server: cf-lt.sharecentre.online, port: 80, type: vmess, ws-opts: {path: /shirker, headers: {host: ny1.sharecentrepro.org}}, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, network: ws}
-  - {name: speednode_0025, server: b1.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b1.zingfast.com.vn, skip-cert-verify: true, udp: true}
-  - {name: speednode_0026, server: b3.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b3.zingfast.com.vn, skip-cert-verify: true, udp: true}
-  - {name: speednode_0027, server: b4.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b4.zingfast.com.vn, skip-cert-verify: true, udp: true}
-  - {name: speednode_0028, server: b5.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b5.zingfast.com.vn, skip-cert-verify: true, udp: true}
-  - {name: speednode_0029, server: b7.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b7.zingfast.com.vn, skip-cert-verify: true, udp: true}
-  - {name: speednode_0030, server: b8.zingfast.com.vn, port: 443, type: trojan, password: a4368ab3-f258-4797-b90e-f5032bf47c26, sni: b8.zingfast.com.vn, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -60,13 +53,6 @@ proxy-groups:
   - speednode_0021
   - speednode_0022
   - speednode_0023
-  - speednode_0024
-  - speednode_0025
-  - speednode_0026
-  - speednode_0027
-  - speednode_0028
-  - speednode_0029
-  - speednode_0030
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -93,13 +79,6 @@ proxy-groups:
   - speednode_0021
   - speednode_0022
   - speednode_0023
-  - speednode_0024
-  - speednode_0025
-  - speednode_0026
-  - speednode_0027
-  - speednode_0028
-  - speednode_0029
-  - speednode_0030
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
