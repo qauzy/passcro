@@ -46,6 +46,36 @@ proxies:
   - {name: speednode_0042, server: 162.159.255.205, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, tls: 0, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, ws-opts: {path: /, headers: {host: us-1.acyun.eu.org}}}
   - {name: speednode_0043, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, cipher: auto, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, tls: false, skip-cert-verify: true, network: tcp}
   - {name: speednode_0044, server: 104.21.235.172, port: 80, type: vmess, ws-opts: {path: /worryfree, headers: {host: idc1.tunnel.systems}}, uuid: c5f23186-2ac8-46e4-b73c-65a2fbd90dd0, alterId: 0, cipher: auto, network: ws}
+  - {name: speednode_0045, server: 13.113.17.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0046, server: 54.254.226.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0047, server: 13.250.34.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0048, server: 13.215.183.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0049, server: sg17.microsoftjs.top, port: 443, type: vmess, uuid: d0c78ec0-0b77-4d0d-8c95-36ffe137f3c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: speednode_0050, server: 54.151.254.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0051, server: 156.225.67.188, port: 55596, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0052, server: sy18.tiktok00002.win, port: 20248, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy18.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy18.tiktok00002.win}}
+  - {name: speednode_0053, server: ns01.gutingting.com, port: 30044, type: vmess, uuid: bb386ffd-f0ae-4674-a1c6-436282c4eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh01.fastcloud.club}}}
+  - {name: speednode_0054, server: sy14.tiktok00002.win, port: 20244, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy14.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy14.tiktok00002.win}}
+  - {name: speednode_0055, server: sy13.tiktok00002.win, port: 20243, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy13.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy13.tiktok00002.win}}
+  - {name: speednode_0056, server: 156.245.8.53, port: 44111, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0057, server: sy19.tiktok00002.win, port: 20249, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy19.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy19.tiktok00002.win}}
+  - {name: speednode_0058, server: 142.4.121.249, port: 45129, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0059, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0060, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0061, server: 45.15.144.73, port: 54492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0062, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0063, server: 18.236.190.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0064, server: 156.225.67.76, port: 49882, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0065, server: 142.4.104.201, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0066, server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0067, server: sy22.tiktok00002.win, port: 20252, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy22.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy22.tiktok00002.win}}
+  - {name: speednode_0068, server: 156.225.67.102, port: 44300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0069, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: speednode_0070, server: 38.54.250.53, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0071, server: 172.104.132.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6}
+  - {name: speednode_0072, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true}
+  - {name: speednode_0073, server: v02.gutingting.com, port: 20227, type: trojan, password: 101d666a-4800-41ef-b4b4-1e2d68c164a1, sni: v2uk01.fuqiangren.com, skip-cert-verify: true}
+  - {name: speednode_0074, server: 178.128.209.143, port: 80, type: vmess, uuid: a740cddf-bda7-4b58-8eda-35bece740b6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
 proxy-groups:
 - name: Proxy
   type: select
@@ -95,6 +125,36 @@ proxy-groups:
   - speednode_0042
   - speednode_0043
   - speednode_0044
+  - speednode_0045
+  - speednode_0046
+  - speednode_0047
+  - speednode_0048
+  - speednode_0049
+  - speednode_0050
+  - speednode_0051
+  - speednode_0052
+  - speednode_0053
+  - speednode_0054
+  - speednode_0055
+  - speednode_0056
+  - speednode_0057
+  - speednode_0058
+  - speednode_0059
+  - speednode_0060
+  - speednode_0061
+  - speednode_0062
+  - speednode_0063
+  - speednode_0064
+  - speednode_0065
+  - speednode_0066
+  - speednode_0067
+  - speednode_0068
+  - speednode_0069
+  - speednode_0070
+  - speednode_0071
+  - speednode_0072
+  - speednode_0073
+  - speednode_0074
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -142,6 +202,36 @@ proxy-groups:
   - speednode_0042
   - speednode_0043
   - speednode_0044
+  - speednode_0045
+  - speednode_0046
+  - speednode_0047
+  - speednode_0048
+  - speednode_0049
+  - speednode_0050
+  - speednode_0051
+  - speednode_0052
+  - speednode_0053
+  - speednode_0054
+  - speednode_0055
+  - speednode_0056
+  - speednode_0057
+  - speednode_0058
+  - speednode_0059
+  - speednode_0060
+  - speednode_0061
+  - speednode_0062
+  - speednode_0063
+  - speednode_0064
+  - speednode_0065
+  - speednode_0066
+  - speednode_0067
+  - speednode_0068
+  - speednode_0069
+  - speednode_0070
+  - speednode_0071
+  - speednode_0072
+  - speednode_0073
+  - speednode_0074
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
