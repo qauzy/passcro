@@ -14,57 +14,54 @@ proxies:
   - {name: speednode_0010, server: 156.225.67.249, port: 34919, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: speednode_0011, server: 142.4.110.26, port: 44902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: speednode_0012, server: 156.225.67.153, port: 47331, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0013, server: 38.40.219.183, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0014, server: 156.245.8.247, port: 48930, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0015, server: 45.15.144.73, port: 54492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0016, server: 190.103.179.23, port: 989, type: ss, password: f8f7aCzcPKbsF8p3, cipher: aes-256-cfb}
-  - {name: speednode_0017, server: 142.4.97.72, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0018, server: 38.40.219.183, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0019, server: 156.249.18.232, port: 42542, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0020, server: 106.225.132.4, port: 19217, type: trojan, password: 0e0e8057-810e-3b64-b8f5-19baa5f8fa2f, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0021, server: insaneguo2333.top, port: 443, type: trojan, password: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0022, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: None}
-  - {name: speednode_0023, server: 38.53.92.187, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0024, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0025, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: official.taipeicitygovernment.kiev.ua, skip-cert-verify: true, udp: true}
-  - {name: speednode_0026, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0027, server: 45.58.180.143, port: 55211, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0028, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0029, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: PT09JSU=, password: eAokbaDN6, protocol: origin, protocol-param: PT09JSU=}
-  - {name: speednode_0030, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: eAokbaDN6, protocol: origin, protocol-param: None}
-  - {name: speednode_0031, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, obfs-param: ====, protocol-param: ====}
-  - {name: speednode_0032, server: 172.104.132.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6, udp: true}
-  - {name: speednode_0033, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0034, server: 158.247.213.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0035, server: 156.225.67.211, port: 46464, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0036, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0037, server: 156.225.67.211, port: 46464, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0038, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0039, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0040, server: sy18.tiktok00002.win, port: 20248, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy18.tiktok00002.win, grpc-opts: {grpc-service-name: sy18.tiktok00002.win}, udp: true}
-  - {name: speednode_0041, server: yn.76po.com, port: 42832, type: trojan, password: cfed69d3-48e2-3820-b593-6933d0ba3607, sni: newj01.icmp.eu.org, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0042, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0043, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0044, server: sy19.tiktok00002.win, port: 20249, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy19.tiktok00002.win, grpc-opts: {grpc-service-name: sy19.tiktok00002.win}, udp: true}
-  - {name: speednode_0045, server: 45.15.144.73, port: 54492, type: vmess, alterId: 64, cipher: auto, network: tcp, tls: 0, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /, headers: {host: None}}}
-  - {name: speednode_0046, server: sy18.tiktok00002.win, port: 20248, type: vmess, grpc-opts: {grpc-service-name: sy18.tiktok00002.win}, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, network: grpc, tls: true}
-  - {name: speednode_0047, server: dajbxus.naikonode.top, port: 15106, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: http_simple, password: NaikoCloud, obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM, protocol-param: 1596:vsqvobohcqs}
-  - {name: speednode_0048, server: 167.88.62.24, port: 5000, type: ss, client-fingerprint: chrome, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: speednode_0049, server: 37.252.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: speednode_0050, server: cn1.applebench.tech, port: 19198, type: ss, cipher: chacha20-ietf-poly1305, password: 7335c755-8c4c-4e85-821c-589d3d6e20b8, udp: true}
-  - {name: speednode_0051, server: sy14.tiktok00002.win, port: 20244, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy14.tiktok00002.win, grpc-opts: {grpc-service-name: sy14.tiktok00002.win}, udp: true}
-  - {name: speednode_0052, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0053, server: 140.99.157.82, port: 47815, type: vmess, alterId: 64, cipher: auto, network: tcp, tls: 0, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /, headers: {host: de01-cdn.airport-v2.com}}}
-  - {name: speednode_0054, server: sy22.tiktok00002.win, port: 20252, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy22.tiktok00002.win, grpc-opts: {grpc-service-name: sy22.tiktok00002.win}, udp: true}
-  - {name: speednode_0055, server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: speednode_0056, server: sy19.tiktok00002.win, port: 20249, type: vmess, grpc-opts: {grpc-service-name: sy19.tiktok00002.win}, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, network: grpc, tls: true}
-  - {name: speednode_0057, server: 185.22.154.241, port: 20022, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: dongtaiwang.com, protocol: origin, protocol-param: None}
-  - {name: speednode_0058, server: sy15.tiktok00002.win, port: 20245, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy15.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy15.tiktok00002.win}}
-  - {name: speednode_0059, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: speednode_0060, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: speednode_0061, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0062, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: speednode_0063, server: sy21.tiktok00002.win, port: 20251, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy21.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy21.tiktok00002.win}}
+  - {name: speednode_0013, server: 156.245.8.247, port: 48930, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0014, server: 45.15.144.73, port: 54492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0015, server: 190.103.179.23, port: 989, type: ss, password: f8f7aCzcPKbsF8p3, cipher: aes-256-cfb}
+  - {name: speednode_0016, server: 142.4.97.72, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0017, server: 156.249.18.232, port: 42542, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0018, server: insaneguo2333.top, port: 443, type: trojan, password: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0019, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: None}
+  - {name: speednode_0020, server: 38.53.92.187, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0021, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0022, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: official.taipeicitygovernment.kiev.ua, skip-cert-verify: true, udp: true}
+  - {name: speednode_0023, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0024, server: 45.58.180.143, port: 55211, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0025, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0026, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: PT09JSU=, password: eAokbaDN6, protocol: origin, protocol-param: PT09JSU=}
+  - {name: speednode_0027, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: eAokbaDN6, protocol: origin, protocol-param: None}
+  - {name: speednode_0028, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, obfs-param: ====, protocol-param: ====}
+  - {name: speednode_0029, server: 172.104.132.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6, udp: true}
+  - {name: speednode_0030, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0031, server: 158.247.213.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0032, server: 156.225.67.211, port: 46464, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0033, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0034, server: 156.225.67.211, port: 46464, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0035, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0036, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0037, server: sy18.tiktok00002.win, port: 20248, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy18.tiktok00002.win, grpc-opts: {grpc-service-name: sy18.tiktok00002.win}, udp: true}
+  - {name: speednode_0038, server: yn.76po.com, port: 42832, type: trojan, password: cfed69d3-48e2-3820-b593-6933d0ba3607, sni: newj01.icmp.eu.org, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0039, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0040, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0041, server: sy19.tiktok00002.win, port: 20249, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy19.tiktok00002.win, grpc-opts: {grpc-service-name: sy19.tiktok00002.win}, udp: true}
+  - {name: speednode_0042, server: 45.15.144.73, port: 54492, type: vmess, alterId: 64, cipher: auto, network: tcp, tls: 0, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /, headers: {host: None}}}
+  - {name: speednode_0043, server: sy18.tiktok00002.win, port: 20248, type: vmess, grpc-opts: {grpc-service-name: sy18.tiktok00002.win}, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, network: grpc, tls: true}
+  - {name: speednode_0044, server: dajbxus.naikonode.top, port: 15106, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: http_simple, password: NaikoCloud, obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM, protocol-param: 1596:vsqvobohcqs}
+  - {name: speednode_0045, server: 167.88.62.24, port: 5000, type: ss, client-fingerprint: chrome, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+  - {name: speednode_0046, server: 37.252.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0047, server: cn1.applebench.tech, port: 19198, type: ss, cipher: chacha20-ietf-poly1305, password: 7335c755-8c4c-4e85-821c-589d3d6e20b8, udp: true}
+  - {name: speednode_0048, server: sy14.tiktok00002.win, port: 20244, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy14.tiktok00002.win, grpc-opts: {grpc-service-name: sy14.tiktok00002.win}, udp: true}
+  - {name: speednode_0049, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0050, server: 140.99.157.82, port: 47815, type: vmess, alterId: 64, cipher: auto, network: tcp, tls: 0, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /, headers: {host: de01-cdn.airport-v2.com}}}
+  - {name: speednode_0051, server: sy22.tiktok00002.win, port: 20252, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy22.tiktok00002.win, grpc-opts: {grpc-service-name: sy22.tiktok00002.win}, udp: true}
+  - {name: speednode_0052, server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: speednode_0053, server: sy19.tiktok00002.win, port: 20249, type: vmess, grpc-opts: {grpc-service-name: sy19.tiktok00002.win}, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, network: grpc, tls: true}
+  - {name: speednode_0054, server: 185.22.154.241, port: 20022, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: dongtaiwang.com, protocol: origin, protocol-param: None}
+  - {name: speednode_0055, server: sy15.tiktok00002.win, port: 20245, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy15.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy15.tiktok00002.win}}
+  - {name: speednode_0056, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: speednode_0057, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0058, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0059, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0060, server: sy21.tiktok00002.win, port: 20251, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, servername: sy21.tiktok00002.win, network: grpc, grpc-opts: {grpc-service-name: sy21.tiktok00002.win}}
 proxy-groups:
 - name: Proxy
   type: select
@@ -130,9 +127,6 @@ proxy-groups:
   - speednode_0058
   - speednode_0059
   - speednode_0060
-  - speednode_0061
-  - speednode_0062
-  - speednode_0063
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -196,9 +190,6 @@ proxy-groups:
   - speednode_0058
   - speednode_0059
   - speednode_0060
-  - speednode_0061
-  - speednode_0062
-  - speednode_0063
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
