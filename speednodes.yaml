@@ -37,7 +37,6 @@ proxies:
   - {name: speednode_0033, server: gz.daxun.cyou, port: 38008, type: vmess, uuid: 8cd89765-48e7-43ed-b409-7f2a865840e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: speednode_0034, server: sy22.tiktok00002.win, port: 20252, type: vmess, alterId: 0, cipher: auto, grpc-opts: {grpc-service-name: sy22.tiktok00002.win}, network: grpc, skip-cert-verify: false, tls: true, uuid: a587750c-f180-465e-b939-fff18e05cfed}
   - {name: speednode_0035, server: dajbxus.naikonode.top, port: 15106, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: http_simple, password: NaikoCloud, obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM, protocol-param: 1596:vsqvobohcqs}
-  - {name: speednode_0036, server: b66e0559-rsngg0-1filk.uk.tcpbbr.net, port: 80, type: vmess, uuid: 627a1c98-3bbd-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: speednode_0037, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}, udp: true}
   - {name: speednode_0038, server: sy20.tiktok00002.win, port: 20250, type: vmess, uuid: a587750c-f180-465e-b939-fff18e05cfed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sy20.tiktok00002.win, grpc-opts: {grpc-service-name: sy20.tiktok00002.win}, udp: true}
   - {name: speednode_0039, server: gz.daxun.cyou, port: 38006, type: vmess, uuid: 8cd89765-48e7-43ed-b409-7f2a865840e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -102,7 +101,6 @@ proxy-groups:
   - speednode_0033
   - speednode_0034
   - speednode_0035
-  - speednode_0036
   - speednode_0037
   - speednode_0038
   - speednode_0039
@@ -165,7 +163,6 @@ proxy-groups:
   - speednode_0033
   - speednode_0034
   - speednode_0035
-  - speednode_0036
   - speednode_0037
   - speednode_0038
   - speednode_0039
