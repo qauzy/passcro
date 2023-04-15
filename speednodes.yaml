@@ -2,41 +2,92 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: cn-hk-52.fnhffffe4.cc, port: 50178, type: trojan, password: bf89d5e9-a455-477f-bfe8-ba33ff71b957, sni: cn-hk-52.fnhffffe4.cc, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0002, server: 156.225.67.108, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0003, server: 142.4.108.57, port: 59109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0004, server: 38.40.158.244, port: 45002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0005, server: 156.225.67.166, port: 49920, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0006, server: 38.54.250.54, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0007, server: 107.148.195.17, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0008, server: 142.4.125.48, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0009, server: gzyd.jcnode.top, port: 20002, type: trojan, password: 95b6960e-f105-48ca-b57c-48b5233ac728, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: speednode_0010, server: 156.225.67.192, port: 38288, type: vmess, cipher: auto, uuid: d024fd8b-ea78-4789-b928-70afa1a910ce, alterId: 64, tls: false, skip-cert-verify: true, network: tcp}
-  - {name: speednode_0011, server: 156.225.67.145, port: 51948, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0012, server: gzdx.jcnode.top, port: 20000, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
-  - {name: speednode_0013, server: gzdx.jcnode.top, port: 20001, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
-  - {name: speednode_0014, server: gzyd.jcnode.top, port: 20001, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
-  - {name: speednode_0015, server: 198.2.205.68, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0016, server: gzdx.jcnode.top, port: 23000, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
-  - {name: speednode_0017, server: gzdx.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 95b6960e-f105-48ca-b57c-48b5233ac728, udp: true}
-  - {name: speednode_0018, server: gzyd.jcnode.top, port: 20000, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
-  - {name: speednode_0019, server: tk-002-001.xiaoxiaobujidao.xyz, port: 20960, type: vmess, uuid: 87b873c4-c465-3670-aab7-8532cf369e7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: tk-002-001.xiaoxiaobujidao.xyz}}, udp: true}
-  - {name: speednode_0020, server: 156.225.67.76, port: 42882, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0021, server: 156.225.67.102, port: 44388, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0022, server: gzyd.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 95b6960e-f105-48ca-b57c-48b5233ac728, udp: true}
-  - {name: speednode_0023, server: 172.247.67.22, port: 42940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0024, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, client-fingerprint: chrome, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, tfo: false, sni: 66.42.40.132, skip-cert-verify: false}
-  - {name: speednode_0025, server: gzyd.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 95b6960e-f105-48ca-b57c-48b5233ac728, udp: true}
-  - {name: speednode_0026, server: 46.17.43.181, port: 20022, type: ssr, client-fingerprint: chrome, cipher: aes-256-cfb, password: dongtaiwang.com, tfo: false, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: None}
-  - {name: speednode_0027, server: 23.224.14.142, port: 55332, type: vmess, alterId: 64, cipher: auto, network: tcp, tls: 0, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /shirker, headers: {host: lv1.sharecentrepro.org}}}
-  - {name: speednode_0028, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0029, server: gzyd.jcnode.top, port: 23002, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
-  - {name: speednode_0030, server: gzdx.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 95b6960e-f105-48ca-b57c-48b5233ac728, udp: true}
-  - {name: speednode_0031, server: 23.224.14.142, port: 55332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0032, server: gzyd.jcnode.top, port: 27000, type: ss, cipher: aes-256-gcm, password: 95b6960e-f105-48ca-b57c-48b5233ac728, udp: true}
-  - {name: speednode_0033, server: gzdx.jcnode.top, port: 28000, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
-  - {name: speednode_0034, server: gzyd.jcnode.top, port: 28001, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
-  - {name: speednode_0035, server: gzyd.jcnode.top, port: 28000, type: vmess, uuid: 95b6960e-f105-48ca-b57c-48b5233ac728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0001, server: 27.124.40.83, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0002, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0003, server: gzdx.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0004, server: gzdx.jcnode.top, port: 40001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0005, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0006, server: gzyd.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0007, server: kr1.vfun.icu, port: 443, type: ssr, password: vyunme, cipher: aes-256-cfb, obfs: plain, protocol: auth_aes128_sha1, obfs-param: ab93117422.jd.hk, protocol-param: 17422:TTp0SX}
+  - {name: speednode_0008, server: ap-jp-west-2.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-jp-west-2.292228.xyz}}, udp: true}
+  - {name: speednode_0009, server: gzdx.jcnode.top, port: 40001, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0010, server: gzyd.jcnode.top, port: 40001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0011, server: gzdx.jcnode.top, port: 42001, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0012, server: gzdx.jcnode.top, port: 40003, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0013, server: gzyd.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0014, server: gzdx.jcnode.top, port: 43002, type: trojan, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0015, server: gzdx.jcnode.top, port: 20001, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0016, server: gzdx.jcnode.top, port: 43002, type: trojan, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0017, server: gzyd01.jcnode.top, port: 20002, type: trojan, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0018, server: gzyd.jcnode.top, port: 40000, type: trojan, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0019, server: gzyd.jcnode.top, port: 20001, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0020, server: gzdx.jcnode.top, port: 41000, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0021, server: gzyd.jcnode.top, port: 20002, type: trojan, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0022, server: gzyd.jcnode.top, port: 43001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0023, server: gzyd.jcnode.top, port: 40000, type: trojan, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0024, server: gzdx.jcnode.top, port: 42000, type: vmess, uuid: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0025, server: gzdx.jcnode.top, port: 41000, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0026, server: gzdx.jcnode.top, port: 43000, type: vmess, uuid: f1368616-bdc7-44e9-9e0a-8eed5a291434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0027, server: gzdx.jcnode.top, port: 23000, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0028, server: gzdx.jcnode.top, port: 43001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0029, server: ap-jp-west-3.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-jp-west-3.292228.xyz}}, udp: true}
+  - {name: speednode_0030, server: gzdx.jcnode.top, port: 42000, type: vmess, uuid: f1368616-bdc7-44e9-9e0a-8eed5a291434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0031, server: gzdx.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0032, server: hbcu.lele233.top, port: 16157, type: ss, cipher: aes-256-gcm, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, udp: true}
+  - {name: speednode_0033, server: gzdx01.jcnode.top, port: 40000, type: trojan, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0034, server: gzyd.jcnode.top, port: 43000, type: vmess, uuid: f1368616-bdc7-44e9-9e0a-8eed5a291434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0035, server: gzdx.jcnode.top, port: 21003, type: ss, cipher: aes-256-gcm, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, udp: true}
+  - {name: speednode_0036, server: gzyd.jcnode.top, port: 20000, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0037, server: gzyd.jcnode.top, port: 40001, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0038, server: gzdx01.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0039, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0040, server: gzdx.jcnode.top, port: 49000, type: ss, cipher: aes-256-gcm, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, udp: true}
+  - {name: speednode_0041, server: gzdx01.jcnode.top, port: 40000, type: trojan, password: f1368616-bdc7-44e9-9e0a-8eed5a291434, sni: hk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0042, server: gzdx.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, udp: true}
+  - {name: speednode_0043, server: hbcu.lele233.top, port: 44390, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hbcu.lele233.top}}, udp: true}
+  - {name: speednode_0044, server: 38.54.250.54, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0045, server: 198.2.208.86, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0046, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0047, server: 192.74.234.248, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0048, server: ap-in-west.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-in-west.292228.xyz}}, udp: true}
+  - {name: speednode_0049, server: gzdx01.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0050, server: gzyd.jcnode.top, port: 24000, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0051, server: 137.175.18.88, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0052, server: gzyd.jcnode.top, port: 28001, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0053, server: gzyd.jcnode.top, port: 27000, type: ss, cipher: aes-256-gcm, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, udp: true}
+  - {name: speednode_0054, server: gzyd.jcnode.top, port: 25001, type: ss, cipher: aes-256-gcm, password: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, udp: true}
+  - {name: speednode_0055, server: gzdx.jcnode.top, port: 48002, type: vmess, uuid: f1368616-bdc7-44e9-9e0a-8eed5a291434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0056, server: 192.74.228.174, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0057, server: gzdx.jcnode.top, port: 49001, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0058, server: 156.245.8.66, port: 49519, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0059, server: 198.2.198.15, port: 42288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0060, server: 156.225.67.166, port: 49920, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0061, server: gzdx.jcnode.top, port: 49000, type: ss, cipher: aes-256-gcm, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, udp: true}
+  - {name: speednode_0062, server: gzyd.jcnode.top, port: 43002, type: trojan, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0063, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0064, server: gz1.mm.926wan.xyz, port: 39943, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0065, server: v2.erciyun.men, port: 1007, type: ss, cipher: chacha20-ietf-poly1305, password: 3ead2a60-f789-420d-b03f-b79bfbb9d237, udp: true}
+  - {name: speednode_0066, server: 198.2.203.54, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0067, server: 38.54.250.51, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0068, server: 156.225.67.76, port: 42882, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0069, server: 142.4.127.4, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0070, server: f-as2.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0071, server: 156.225.67.68, port: 45553, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0072, server: 154.84.1.31, port: 44202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0073, server: gzyd.jcnode.top, port: 28000, type: vmess, uuid: 1c2a1fe6-e8a6-4dd5-aa6a-ff59c99088e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: speednode_0074, server: gzdx.jcnode.top, port: 48000, type: trojan, password: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: speednode_0075, server: 198.2.201.11, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0076, server: us-east-1.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: us-east-1.292228.xyz}}, udp: true}
+  - {name: speednode_0077, server: 172.67.86.214, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: speednode_0078, server: 139.226.166.156, port: 28132, type: trojan, password: mfkhxH, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0079, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: speednode_0080, server: 140.99.94.41, port: 44108, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0081, server: gzdx.jcnode.top, port: 48002, type: vmess, uuid: b0f651c2-73d0-454b-83ba-b6ddb1b6d207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: speednode_0082, server: 38.63.17.178, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: speednode_0083, server: 135.148.149.209, port: 80, type: trojan, password: 011eb011-c68e-4f92-80eb-f9bbef707bef, sni: irancode.ir, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0084, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: speednode_0085, server: ap-sg-central-1.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-sg-central-1.292228.xyz}}, udp: true}
+  - {name: speednode_0086, server: hax.smely.eu.org, port: 80, type: vmess, uuid: 58340bf3-d51d-45e2-87a8-effa78e4bca6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hax02, headers: {Host: hax.smely.eu.org}}, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -77,6 +128,57 @@ proxy-groups:
   - speednode_0033
   - speednode_0034
   - speednode_0035
+  - speednode_0036
+  - speednode_0037
+  - speednode_0038
+  - speednode_0039
+  - speednode_0040
+  - speednode_0041
+  - speednode_0042
+  - speednode_0043
+  - speednode_0044
+  - speednode_0045
+  - speednode_0046
+  - speednode_0047
+  - speednode_0048
+  - speednode_0049
+  - speednode_0050
+  - speednode_0051
+  - speednode_0052
+  - speednode_0053
+  - speednode_0054
+  - speednode_0055
+  - speednode_0056
+  - speednode_0057
+  - speednode_0058
+  - speednode_0059
+  - speednode_0060
+  - speednode_0061
+  - speednode_0062
+  - speednode_0063
+  - speednode_0064
+  - speednode_0065
+  - speednode_0066
+  - speednode_0067
+  - speednode_0068
+  - speednode_0069
+  - speednode_0070
+  - speednode_0071
+  - speednode_0072
+  - speednode_0073
+  - speednode_0074
+  - speednode_0075
+  - speednode_0076
+  - speednode_0077
+  - speednode_0078
+  - speednode_0079
+  - speednode_0080
+  - speednode_0081
+  - speednode_0082
+  - speednode_0083
+  - speednode_0084
+  - speednode_0085
+  - speednode_0086
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -115,6 +217,57 @@ proxy-groups:
   - speednode_0033
   - speednode_0034
   - speednode_0035
+  - speednode_0036
+  - speednode_0037
+  - speednode_0038
+  - speednode_0039
+  - speednode_0040
+  - speednode_0041
+  - speednode_0042
+  - speednode_0043
+  - speednode_0044
+  - speednode_0045
+  - speednode_0046
+  - speednode_0047
+  - speednode_0048
+  - speednode_0049
+  - speednode_0050
+  - speednode_0051
+  - speednode_0052
+  - speednode_0053
+  - speednode_0054
+  - speednode_0055
+  - speednode_0056
+  - speednode_0057
+  - speednode_0058
+  - speednode_0059
+  - speednode_0060
+  - speednode_0061
+  - speednode_0062
+  - speednode_0063
+  - speednode_0064
+  - speednode_0065
+  - speednode_0066
+  - speednode_0067
+  - speednode_0068
+  - speednode_0069
+  - speednode_0070
+  - speednode_0071
+  - speednode_0072
+  - speednode_0073
+  - speednode_0074
+  - speednode_0075
+  - speednode_0076
+  - speednode_0077
+  - speednode_0078
+  - speednode_0079
+  - speednode_0080
+  - speednode_0081
+  - speednode_0082
+  - speednode_0083
+  - speednode_0084
+  - speednode_0085
+  - speednode_0086
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
