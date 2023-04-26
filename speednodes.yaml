@@ -2,10 +2,6 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: 9318b552-3ec8-4ae0-a57f-71b46e20b671.interface.buzz, port: 41581, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
-  - {name: speednode_0002, server: 505c2160-3dcd-44c8-90b0-0516381e0a77.interface.buzz, port: 64541, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
-  - {name: speednode_0003, server: 154db23a-6333-441b-8e5b-b5bf95dba2fb.interface.buzz, port: 21511, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
-  - {name: speednode_0004, server: 6121cc89-6c33-02d0-15bf-2db6e6c115ef.interface.buzz, port: 15130, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
   - {name: speednode_0005, server: relaysgp2.vip.conectinnode.info, port: 1502, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
   - {name: speednode_0006, server: bgphk8.vip.conectinnode.info, port: 581, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
   - {name: speednode_0007, server: aiatw2.conectinnode.info, port: 1202, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
@@ -53,10 +49,6 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ automatic
-  - speednode_0001
-  - speednode_0002
-  - speednode_0003
-  - speednode_0004
   - speednode_0005
   - speednode_0006
   - speednode_0007
@@ -102,10 +94,6 @@ proxy-groups:
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - speednode_0001
-  - speednode_0002
-  - speednode_0003
-  - speednode_0004
   - speednode_0005
   - speednode_0006
   - speednode_0007
