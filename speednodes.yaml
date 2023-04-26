@@ -2,55 +2,52 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: relaysgp2.vip.conectinnode.info, port: 1502, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0002, server: bgphk8.vip.conectinnode.info, port: 581, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0003, server: aiatw2.conectinnode.info, port: 1202, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0004, server: aiatw6.conectinnode.info, port: 1206, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0005, server: bgphk4.vip.conectinnode.info, port: 577, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0006, server: aiatw1.conectinnode.info, port: 1201, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0007, server: bgphk6.vip.conectinnode.info, port: 579, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0008, server: bgphk3.vip.conectinnode.info, port: 576, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0009, server: bgphk2.vip.conectinnode.info, port: 575, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0010, server: bgphk5.vip.conectinnode.info, port: 578, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0011, server: bgphk7.vip.conectinnode.info, port: 580, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0012, server: bgphk9.vip.conectinnode.info, port: 582, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0013, server: relaysgp1.vip.conectinnode.info, port: 1501, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0014, server: bgphka.vip.conectinnode.info, port: 583, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0015, server: bgphk1.vip.conectinnode.info, port: 574, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0016, server: aiatw4.conectinnode.info, port: 1204, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0017, server: aiatw5.conectinnode.info, port: 1205, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0018, server: aiatw3.conectinnode.info, port: 1203, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0019, server: relayjp4.vip.conectinnode.info, port: 1454, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0020, server: relayjp2.vip.conectinnode.info, port: 1452, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0021, server: relayjp3.vip.conectinnode.info, port: 1453, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0022, server: relayjp1.vip.conectinnode.info, port: 1451, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0023, server: hkmax01.170203.xyz, port: 443, type: trojan, password: 1f3f5b8a-be41-4a92-9b90-6473702aaa3b, allowInsecure: 0, skip-cert-verify: true, udp: true}
-  - {name: speednode_0024, server: aiaph1.conectinnode.info, port: 1641, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0025, server: aiabjfr1.conectinnode.info, port: 1461, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0026, server: relayus2.vip.conectinnode.info, port: 1402, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0027, server: relayus1.vip.conectinnode.info, port: 1401, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0028, server: relayus3.vip.conectinnode.info, port: 1403, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0029, server: 195.15.243.26, port: 443, type: trojan, password: !<str> 4478, allowInsecure: 0, skip-cert-verify: true, udp: true}
-  - {name: speednode_0030, server: aiaru1.conectinnode.info, port: 1601, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0031, server: relaytr1.vip.conectinnode.info, port: 1561, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0032, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, allowInsecure: 0, skip-cert-verify: true, udp: true}
-  - {name: speednode_0033, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, sni: fararu.com, allowInsecure: 0, skip-cert-verify: true, udp: true}
-  - {name: speednode_0034, server: 198.2.218.195, port: 51202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0035, server: 54.37.185.148, port: 32894, type: trojan, network: tcp, password: HchlVCfnXB, skip-cert-verify: true}
-  - {name: speednode_0036, server: 142.4.125.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0037, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, sni: jamaran.ir, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0038, server: 23.225.33.173, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0039, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: speednode_0040, server: gdcm2.v-too.cloud, port: 34595, type: ss, cipher: chacha20-ietf-poly1305, password: b094dee9-6b07-41b4-9f72-6ae5902fc759}
+  - {name: speednode_0001, server: 9318b552-3ec8-4ae0-a57f-71b46e20b671.interface.buzz, port: 41581, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
+  - {name: speednode_0002, server: 505c2160-3dcd-44c8-90b0-0516381e0a77.interface.buzz, port: 64541, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
+  - {name: speednode_0003, server: 154db23a-6333-441b-8e5b-b5bf95dba2fb.interface.buzz, port: 21511, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
+  - {name: speednode_0004, server: 6121cc89-6c33-02d0-15bf-2db6e6c115ef.interface.buzz, port: 15130, type: ss, cipher: aes-256-gcm, password: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, udp: true}
+  - {name: speednode_0005, server: relaysgp2.vip.conectinnode.info, port: 1502, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0006, server: bgphk8.vip.conectinnode.info, port: 581, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0007, server: aiatw2.conectinnode.info, port: 1202, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0008, server: aiatw6.conectinnode.info, port: 1206, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0009, server: bgphk4.vip.conectinnode.info, port: 577, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0010, server: aiatw1.conectinnode.info, port: 1201, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0011, server: bgphk6.vip.conectinnode.info, port: 579, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0012, server: bgphk3.vip.conectinnode.info, port: 576, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0013, server: bgphk2.vip.conectinnode.info, port: 575, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0014, server: bgphk5.vip.conectinnode.info, port: 578, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0015, server: bgphk7.vip.conectinnode.info, port: 580, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0016, server: bgphk9.vip.conectinnode.info, port: 582, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0017, server: relaysgp1.vip.conectinnode.info, port: 1501, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0018, server: bgphka.vip.conectinnode.info, port: 583, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0019, server: bgphk1.vip.conectinnode.info, port: 574, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0020, server: aiatw4.conectinnode.info, port: 1204, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0021, server: aiatw5.conectinnode.info, port: 1205, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0022, server: aiatw3.conectinnode.info, port: 1203, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0023, server: relayjp4.vip.conectinnode.info, port: 1454, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0024, server: relayjp2.vip.conectinnode.info, port: 1452, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0025, server: relayjp3.vip.conectinnode.info, port: 1453, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0026, server: relayjp1.vip.conectinnode.info, port: 1451, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0027, server: aiaph1.conectinnode.info, port: 1641, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0028, server: aiabjfr1.conectinnode.info, port: 1461, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0029, server: relayus2.vip.conectinnode.info, port: 1402, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0030, server: relayus1.vip.conectinnode.info, port: 1401, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0031, server: relayus3.vip.conectinnode.info, port: 1403, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0032, server: 195.15.243.26, port: 443, type: trojan, password: !<str> 4478, allowInsecure: 0, skip-cert-verify: true, udp: true}
+  - {name: speednode_0033, server: aiaru1.conectinnode.info, port: 1601, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0034, server: relaytr1.vip.conectinnode.info, port: 1561, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0035, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, allowInsecure: 0, skip-cert-verify: true, udp: true}
+  - {name: speednode_0036, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, sni: fararu.com, allowInsecure: 0, skip-cert-verify: true, udp: true}
+  - {name: speednode_0037, server: 54.37.185.148, port: 32894, type: trojan, network: tcp, password: HchlVCfnXB, skip-cert-verify: true}
+  - {name: speednode_0038, server: 142.4.125.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: speednode_0039, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, sni: jamaran.ir, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0040, server: 23.225.33.173, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: speednode_0041, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0042, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: speednode_0043, server: 139.99.245.165, port: 50002, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: speednode_0044, server: aiashar1.conectinnode.info, port: 1651, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0045, server: z2i1.269999.xyz, port: 28218, type: vmess, uuid: b06da3c4-ad10-4022-8b1c-54112118a7ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: i1.269999.xyz}}, udp: true}
-  - {name: speednode_0046, server: aiashbr1.conectinnode.info, port: 1631, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0047, server: 152.70.74.66, port: 443, type: trojan, udp: true, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, network: tcp}
-  - {name: speednode_0048, server: cucsuk1.vip.conectinnode.info, port: 1351, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
-  - {name: speednode_0049, server: shuk2.vip.conectinnode.info, port: 1352, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0042, server: aiashar1.conectinnode.info, port: 1651, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0043, server: aiashbr1.conectinnode.info, port: 1631, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0044, server: 152.70.74.66, port: 443, type: trojan, udp: true, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, network: tcp}
+  - {name: speednode_0045, server: cucsuk1.vip.conectinnode.info, port: 1351, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
+  - {name: speednode_0046, server: shuk2.vip.conectinnode.info, port: 1352, type: ssr, password: mtbv8n, cipher: chacha20-ietf, obfs: plain, protocol: auth_aes128_md5, obfs-param: c802987255.wns.windows.com, protocol-param: 87255:aSuG7m1Uhri, group: MZfastCloud}
 proxy-groups:
 - name: Proxy
   type: select
@@ -102,9 +99,6 @@ proxy-groups:
   - speednode_0044
   - speednode_0045
   - speednode_0046
-  - speednode_0047
-  - speednode_0048
-  - speednode_0049
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -154,9 +148,6 @@ proxy-groups:
   - speednode_0044
   - speednode_0045
   - speednode_0046
-  - speednode_0047
-  - speednode_0048
-  - speednode_0049
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
