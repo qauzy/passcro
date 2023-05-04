@@ -39,6 +39,7 @@ proxies:
   - {name: speednode_0035, server: 107.189.5.112, port: 7341, type: vmess, uuid: 2c7eb798-b8ce-41d9-8ca0-e649e99716e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /1kgn7K, headers: {Host: gbdfesed.uk}}, udp: true}
   - {name: speednode_0036, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: speednode_0037, server: 37.235.55.21, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0038, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -81,6 +82,7 @@ proxy-groups:
   - speednode_0035
   - speednode_0036
   - speednode_0037
+  - speednode_0038
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -121,6 +123,7 @@ proxy-groups:
   - speednode_0035
   - speednode_0036
   - speednode_0037
+  - speednode_0038
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
