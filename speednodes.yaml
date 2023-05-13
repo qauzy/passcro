@@ -2,52 +2,51 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, client-fingerprint: chrome, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, tfo: false, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: speednode_0002, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, client-fingerprint: chrome, password: 794d739c-89a0-444c-b2e7-acce12af3042, tfo: false, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: speednode_0003, server: cdncf.scyu.app, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}, udp: true}
-  - {name: speednode_0004, server: 172.67.81.238, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
-  - {name: speednode_0005, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
-  - {name: speednode_0006, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
-  - {name: speednode_0007, server: 103.21.244.104, port: 80, type: vmess, uuid: bf663a96-d2ee-4c67-e2db-759faf345ffe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /qwer09, headers: {Host: yvsos.vtcss.top}}}
-  - {name: speednode_0008, server: awshk16-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, udp: true, skip-cert-verify: true, sni: data.amazon-azure.com}
-  - {name: speednode_0009, server: ap.stablize.top, port: 443, type: trojan, password: c8fb9d20-d89b-4f20-93f6-acd04aeb586b, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: speednode_0010, server: 2cnrelay2.initcloud.pro, port: 560, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: plain, password: mblank1port, protocol-param: 3866:125458558}
-  - {name: speednode_0011, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0012, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0013, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0014, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0015, server: jp5.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0016, server: jp1.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0017, server: sg2.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0018, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0019, server: jp2.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0020, server: hk5.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0021, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0022, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB}
-  - {name: speednode_0023, server: cn-shcu.cat-input.com, port: 8300, type: trojan, password: 6c74f352-c5e3-43ae-abfa-4b9750085b74, udp: true, skip-cert-verify: true, sni: us-01.oneok.link}
-  - {name: speednode_0024, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
-  - {name: speednode_0025, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: eAokbaDN6, protocol: origin, protocol-param: None}
-  - {name: speednode_0026, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: RcfVcDzzB, protocol: origin, protocol-param: None}
-  - {name: speednode_0027, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: speednode_0028, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: eAokbaDN6, protocol: origin}
-  - {name: speednode_0029, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0030, server: streaming.teacher2040.com, port: 43500, type: trojan, password: D44B7434-927C-AE52-D51F-A790C19ED74A, skip-cert-verify: true, udp: true}
-  - {name: speednode_0031, server: jp31.hneko.online, port: 53338, type: vmess, uuid: 541f4717-981f-46de-b40b-d338bed573d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jp4.hneko.online}}, udp: true}
-  - {name: speednode_0032, server: jp32.hneko.online, port: 53339, type: vmess, uuid: 541f4717-981f-46de-b40b-d338bed573d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jp4.hneko.online}}, udp: true}
-  - {name: speednode_0033, server: 8.208.79.207, port: 443, type: vmess, uuid: 63a5a595-054e-41e2-d878-d77a684336a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr2.739256.xyz}}, udp: true}
-  - {name: speednode_0034, server: 8.211.5.231, port: 443, type: vmess, uuid: 63a5a595-054e-41e2-d878-d77a684336a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr2.739256.xyz}}, udp: true}
-  - {name: speednode_0035, server: freeuss.kmairplan.one, port: 10043, type: vmess, uuid: 1d37585f-d05c-4a54-9c05-ed59de1ee7ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freeuss.kmairplan.one, headers: {Host: freeuss.kmairplan.one}}, udp: true}
-  - {name: speednode_0036, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, skip-cert-verify: true, udp: true}
-  - {name: speednode_0037, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: speednode_0038, server: en.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
-  - {name: speednode_0039, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, skip-cert-verify: true, udp: true}
-  - {name: speednode_0040, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: speednode_0041, server: ap.stablize.top, port: 443, type: trojan, password: c8fb9d20-d89b-4f20-93f6-acd04aeb586b, skip-cert-verify: true, udp: true}
-  - {name: speednode_0042, server: T2.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 12008, type: trojan, password: cd886da4-d68e-44b8-b7ef-fb5bc0c6c09c, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, udp: true}
-  - {name: speednode_0043, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09JS%�, obfs-param: PT09JS%�}
-  - {name: speednode_0044, server: 172.67.156.138, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: speednode_0045, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
-  - {name: speednode_0046, server: jp3.cnamazon.sbs, port: 443, type: trojan, password: 6cc96992-cfab-48ca-9e16-963c4a0aa585, skip-cert-verify: true}
+  - {name: speednode_0001, server: 172.67.81.238, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: speednode_0002, server: 43.206.124.106, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, udp: true, skip-cert-verify: true, sni: data.amazon-azure.com}
+  - {name: speednode_0003, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: speednode_0004, server: 103.21.244.104, port: 80, type: vmess, uuid: bf663a96-d2ee-4c67-e2db-759faf345ffe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /qwer09, headers: {Host: yvsos.vtcss.top}}}
+  - {name: speednode_0005, server: hkt2.amazonwebservicess.com, port: 80, type: vmess, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {host: tlu.dl.delivery.mp.microsoft.com}}, uuid: 4aeda200-44c9-4168-8f2a-a00a72176d35, alterId: 0, cipher: auto, network: ws}
+  - {name: speednode_0006, server: sg.stablize.top, port: 443, type: trojan, password: f51ec03c-f64f-4ed7-be66-8ebd0dbbaca2, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: speednode_0007, server: 2cnrelay2.initcloud.pro, port: 560, type: ssr, protocol: auth_aes128_md5, cipher: chacha20-ietf, obfs: plain, password: mblank1port, protocol-param: 3866:125458558}
+  - {name: speednode_0008, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0009, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0010, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0011, server: sg2.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0012, server: sg3.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0013, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0014, server: jp1.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0015, server: bgptw5.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0016, server: bgptw1.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0017, server: bgptw2.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0018, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0019, server: sg4.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0020, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0021, server: hk4.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0022, server: hk5.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0023, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, allowInsecure: 1, skip-cert-verify: true, udp: true}
+  - {name: speednode_0024, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0025, server: asintech--id-telegram.duckdns.org, port: 11002, type: vmess, http-opts: {path: [/], headers: {Host: [zula.ir]}}, uuid: aa410999-f9c3-4eb6-a929-5b7eff9764c5, alterId: 0, cipher: auto, network: http}
+  - {name: speednode_0026, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB}
+  - {name: speednode_0027, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: speednode_0028, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
+  - {name: speednode_0029, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: speednode_0030, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: eAokbaDN6, protocol: origin, protocol-param: None}
+  - {name: speednode_0031, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, obfs-param: "", password: RcfVcDzzB, protocol: origin, protocol-param: None}
+  - {name: speednode_0032, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: speednode_0033, server: 172.67.70.11, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}, udp: true}
+  - {name: speednode_0034, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: eAokbaDN6, protocol: origin}
+  - {name: speednode_0035, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0036, server: US1.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 443, type: trojan, password: cd886da4-d68e-44b8-b7ef-fb5bc0c6c09c, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, udp: true}
+  - {name: speednode_0037, server: jp31.hneko.online, port: 53338, type: vmess, uuid: 541f4717-981f-46de-b40b-d338bed573d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jp4.hneko.online}}, udp: true}
+  - {name: speednode_0038, server: jp32.hneko.online, port: 53339, type: vmess, uuid: 541f4717-981f-46de-b40b-d338bed573d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jp4.hneko.online}}, udp: true}
+  - {name: speednode_0039, server: 8.211.5.231, port: 443, type: vmess, uuid: 63a5a595-054e-41e2-d878-d77a684336a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr2.739256.xyz}}, udp: true}
+  - {name: speednode_0040, server: 8.208.79.207, port: 443, type: vmess, uuid: 63a5a595-054e-41e2-d878-d77a684336a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr2.739256.xyz}}, udp: true}
+  - {name: speednode_0041, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, skip-cert-verify: true, udp: true}
+  - {name: speednode_0042, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
+  - {name: speednode_0043, server: azsg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, skip-cert-verify: true, udp: true}
+  - {name: speednode_0044, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true, udp: true}
+  - {name: speednode_0045, server: ap.stablize.top, port: 443, type: trojan, password: c8fb9d20-d89b-4f20-93f6-acd04aeb586b, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -98,7 +97,6 @@ proxy-groups:
   - speednode_0043
   - speednode_0044
   - speednode_0045
-  - speednode_0046
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -147,7 +145,6 @@ proxy-groups:
   - speednode_0043
   - speednode_0044
   - speednode_0045
-  - speednode_0046
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
