@@ -2,28 +2,20 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: 154.198.209.42, port: 443, type: ssr, client-fingerprint: chrome, cipher: rc4-md5, password: ckq123.., tfo: false, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cn.bing.com}
-  - {name: speednode_0002, server: azsg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, skip-cert-verify: true, udp: true}
-  - {name: speednode_0003, server: sg.stablize.top, port: 443, type: trojan, password: f51ec03c-f64f-4ed7-be66-8ebd0dbbaca2, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: speednode_0004, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0005, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0006, server: 172.105.217.55, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: false, tls: false, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, ws-opts: {path: "/fuzzyng?ed=2048"}}
-  - {name: speednode_0007, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0008, server: ap.stablize.top, port: 443, type: trojan, password: c8fb9d20-d89b-4f20-93f6-acd04aeb586b, skip-cert-verify: true, udp: true}
-  - {name: speednode_0009, server: jp1.fuzzyng.net, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: false, tls: false, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, ws-opts: {path: "/fuzzyng?ed=2048"}}
-  - {name: speednode_0010, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0011, server: gy.51vv.top, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b}
-  - {name: speednode_0012, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0013, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, allowInsecure: 1, skip-cert-verify: true, udp: true}
-  - {name: speednode_0014, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
-  - {name: speednode_0015, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0016, server: 142.0.130.8, port: 53452, type: vmess, client-fingerprint: chrome, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: speednode_0017, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: speednode_0018, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0019, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0020, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}, udp: true}
-  - {name: speednode_0021, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
-  - {name: speednode_0022, server: gy.51vv.top, port: 32012, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b}
+  - {name: speednode_0001, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awssg3-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0002, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awssg13-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0003, server: 154.198.209.42, port: 443, type: ssr, cipher: rc4-md5, password: ckq123.., protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cn.bing.com, udp: true}
+  - {name: speednode_0004, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp1-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0005, server: sg.stablize.top, port: 443, type: trojan, password: f51ec03c-f64f-4ed7-be66-8ebd0dbbaca2, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: speednode_0006, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, sni: us2.trojanvh.xyz, skip-cert-verify: true, udp: true}
+  - {name: speednode_0007, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awsjp1-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0008, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awssg19-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0009, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0010, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: speednode_0011, server: gy.51vv.top, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b, udp: true}
+  - {name: speednode_0012, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0013, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}}
+  - {name: speednode_0014, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
 proxy-groups:
 - name: Proxy
   type: select
@@ -43,14 +35,6 @@ proxy-groups:
   - speednode_0012
   - speednode_0013
   - speednode_0014
-  - speednode_0015
-  - speednode_0016
-  - speednode_0017
-  - speednode_0018
-  - speednode_0019
-  - speednode_0020
-  - speednode_0021
-  - speednode_0022
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -68,14 +52,6 @@ proxy-groups:
   - speednode_0012
   - speednode_0013
   - speednode_0014
-  - speednode_0015
-  - speednode_0016
-  - speednode_0017
-  - speednode_0018
-  - speednode_0019
-  - speednode_0020
-  - speednode_0021
-  - speednode_0022
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
