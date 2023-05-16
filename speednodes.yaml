@@ -3,16 +3,13 @@ mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: speednode_0001, server: sg.stablize.top, port: 443, type: trojan, password: f51ec03c-f64f-4ed7-be66-8ebd0dbbaca2, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: speednode_0002, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0004, server: gy.51vv.top, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b, udp: true}
-  - {name: speednode_0005, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: awsjp14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0002, server: gy.51vv.top, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b, udp: true}
+  - {name: speednode_0003, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awssg19-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0004, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: speednode_0005, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, sni: us2.trojanvh.xyz, skip-cert-verify: true, udp: true}
   - {name: speednode_0006, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}}
-  - {name: speednode_0007, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, sni: us2.trojanvh.xyz, skip-cert-verify: true, udp: true}
-  - {name: speednode_0008, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: speednode_0009, server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}}
-  - {name: speednode_0010, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
-  - {name: speednode_0011, server: gy.51vv.top, port: 32012, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b, udp: true}
-  - {name: speednode_0012, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: awssg19-data.amazon-azure.com, skip-cert-verify: true, udp: true}
+  - {name: speednode_0007, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: speednode_0008, server: gy.51vv.top, port: 32012, type: ss, cipher: chacha20-ietf-poly1305, password: 6ba2173f-7262-4db2-b41d-b3e4f38efd0b, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -20,29 +17,23 @@ proxy-groups:
   - ♻️ automatic
   - speednode_0001
   - speednode_0002
+  - speednode_0003
   - speednode_0004
   - speednode_0005
   - speednode_0006
   - speednode_0007
   - speednode_0008
-  - speednode_0009
-  - speednode_0010
-  - speednode_0011
-  - speednode_0012
 - name: ♻️ automatic
   type: url-test
   proxies:
   - speednode_0001
   - speednode_0002
+  - speednode_0003
   - speednode_0004
   - speednode_0005
   - speednode_0006
   - speednode_0007
   - speednode_0008
-  - speednode_0009
-  - speednode_0010
-  - speednode_0011
-  - speednode_0012
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
