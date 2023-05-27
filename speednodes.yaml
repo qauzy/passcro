@@ -26,6 +26,15 @@ proxies:
   - {name: speednode_0022, server: 165.154.246.207, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, allowInsecure: 1, skip-cert-verify: true, udp: true}
   - {name: speednode_0023, server: 38.60.208.68, port: 20037, type: vmess, uuid: a529cf39-d753-41e5-a72a-64cf8d48f469, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /tk2/getData}, udp: true}
   - {name: speednode_0024, server: cdn.noice.id, port: 80, type: vmess, uuid: 69389ced-7239-488a-9927-1ff91a5a82b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /v2ray, headers: {Host: c5aagg.aioxyz.my.id}}}
+  - {name: speednode_0025, server: relay2.292228.xyz, port: 30048, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0026, server: ap-kr-tunnel.292228.xyz, port: 30044, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0027, server: relay2.292228.xyz, port: 30045, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0028, server: relay2.292228.xyz, port: 30044, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0029, server: relay2.292228.xyz, port: 30046, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0030, server: relay2.292228.xyz, port: 30049, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0031, server: ap-sg-tunnel.292228.xyz, port: 30046, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0032, server: ap-hk-tunnel.292228.xyz, port: 30049, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: speednode_0033, server: ap-jp-tunnel.292228.xyz, port: 30045, type: vmess, uuid: 92d61f65-8202-44de-87e1-d61d5f86934f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -55,6 +64,15 @@ proxy-groups:
   - speednode_0022
   - speednode_0023
   - speednode_0024
+  - speednode_0025
+  - speednode_0026
+  - speednode_0027
+  - speednode_0028
+  - speednode_0029
+  - speednode_0030
+  - speednode_0031
+  - speednode_0032
+  - speednode_0033
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -82,6 +100,15 @@ proxy-groups:
   - speednode_0022
   - speednode_0023
   - speednode_0024
+  - speednode_0025
+  - speednode_0026
+  - speednode_0027
+  - speednode_0028
+  - speednode_0029
+  - speednode_0030
+  - speednode_0031
+  - speednode_0032
+  - speednode_0033
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
