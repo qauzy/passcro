@@ -54,7 +54,6 @@ proxies:
   - {name: NU_speednode_0050, server: 104.18.103.3, port: 2086, type: vmess, uuid: d18cf3e0-e5fe-4f89-9d36-e4688788983b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}, udp: true}
   - {name: NU_speednode_0051, server: 162.159.20.92, port: 2095, type: vmess, uuid: 38a9c369-a71c-41a1-96da-3fda8d04db27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}, udp: true}
   - {name: NU_speednode_0052, server: 162.159.136.240, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}, udp: true}
-  - {name: NU_speednode_0053, server: 190.93.245.255, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}, udp: true}
   - {name: NU_speednode_0054, server: 190.93.246.120, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}, udp: true}
   - {name: PL_speednode_0055, server: 5.188.108.10, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: SG_speednode_0056, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: hk2.gsjc.cfd, skip-cert-verify: true, udp: true}
@@ -137,7 +136,6 @@ proxies:
   - {name: US_speednode_0133, server: 45.199.138.54, port: 45016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
   - {name: US_speednode_0134, server: 104.25.164.164, port: 2095, type: vmess, uuid: 38a9c369-a71c-41a1-96da-3fda8d04db27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}, udp: true}
   - {name: US_speednode_0135, server: 45.58.154.135, port: 51409, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: US_speednode_0136, server: 107.167.16.217, port: 33589, type: vmess, uuid: 8c679b81-84fc-43ce-9553-ddca575a6949, alterId: 64, cipher: auto, network: tcp}
   - {name: US_speednode_0137, server: 103.21.244.117, port: 2086, type: vmess, uuid: d18cf3e0-e5fe-4f89-9d36-e4688788983b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}, udp: true}
   - {name: US_speednode_0138, server: 104.27.116.252, port: 2086, type: vmess, uuid: d18cf3e0-e5fe-4f89-9d36-e4688788983b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}, udp: true}
   - {name: US_speednode_0139, server: 38.54.167.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1688376713617, headers: {Host: www.76381584.xyz}}, udp: true}
@@ -226,7 +224,6 @@ proxy-groups:
   - NU_speednode_0050
   - NU_speednode_0051
   - NU_speednode_0052
-  - NU_speednode_0053
   - NU_speednode_0054
   - PL_speednode_0055
   - SG_speednode_0056
@@ -309,7 +306,6 @@ proxy-groups:
   - US_speednode_0133
   - US_speednode_0134
   - US_speednode_0135
-  - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0138
   - US_speednode_0139
@@ -396,7 +392,6 @@ proxy-groups:
   - NU_speednode_0050
   - NU_speednode_0051
   - NU_speednode_0052
-  - NU_speednode_0053
   - NU_speednode_0054
   - PL_speednode_0055
   - SG_speednode_0056
@@ -479,7 +474,6 @@ proxy-groups:
   - US_speednode_0133
   - US_speednode_0134
   - US_speednode_0135
-  - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0138
   - US_speednode_0139
