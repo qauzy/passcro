@@ -2,130 +2,127 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: DE_speednode_0001, server: 136.244.84.145, port: 2053, type: vmess, uuid: f7082b12-80fb-48a6-8031-e07817290de8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vmesskhodam.vmesskhodam.top}}, udp: true}
+  - {name: CH_speednode_0001, server: v2node8.bipbupvpn.com, port: 443, type: vmess, uuid: 9761db37-0ff4-4e27-bdb3-a6d82e1f8633, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /AAA, headers: {host: v2node8.bipbupvpn.com}}}
   - {name: DK_speednode_0002, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: FR_speednode_0003, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: "", udp: true}
-  - {name: FR_speednode_0004, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB, protocol: origin}
-  - {name: FR_speednode_0005, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB, protocol-param: Tm9uJSXvv70}
-  - {name: FR_speednode_0006, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: RcfVcDzzB, protocol-param: Non%%ￄ1�7}
-  - {name: FR_speednode_0007, server: 15.237.142.21, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: FR_speednode_0008, server: 15.237.142.21, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: GB_speednode_0009, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: HK_speednode_0010, server: 156.245.8.248, port: 43393, type: vmess, cipher: auto, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, tls: false, skip-cert-verify: true, network: None}
-  - {name: HK_speednode_0011, server: 156.245.8.248, port: 43393, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, network: tcp}
-  - {name: HK_speednode_0012, server: 156.245.8.143, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0013, server: 156.245.8.143, port: 49155, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, ws-opts: {path: /}}
-  - {name: HK_speednode_0014, server: 156.245.8.84, port: 48123, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, network: none}
-  - {name: HK_speednode_0015, server: adobe2.fmmmz1.com, port: 80, type: vmess, uuid: ccc4e1eb-e85b-3b9f-b5f4-6c44826b0c65, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /adobe, headers: {host: adobe2.fmmmz1.com}}}
-  - {name: IE_speednode_0016, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: IS_speednode_0017, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: JP_speednode_0018, server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: 8c731386-ac56-32c3-a34a-726a20817b2d, alterId: 2, cipher: auto, network: ws, tls: false, ws-opts: {path: /, headers: {host: 19.v2-ray.cyou}}}
-  - {name: JP_speednode_0019, server: relay1.aiguo.sbs, port: 443, type: trojan, password: 205409fa-0003-4a2b-b0e1-47f725a450f5, sni: jp1.aiguojichang.com, skip-cert-verify: false}
-  - {name: KR_speednode_0020, server: 43.200.1.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0021, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_speednode_0022, server: ccarm.wasanbi.tk, port: 58678, type: trojan, password: z3NtLA8ocb, sni: getandroid.com, skip-cert-verify: true}
-  - {name: KR_speednode_0023, server: ccarm.wasanbi.tk, port: 58678, type: trojan, password: z3NtLA8ocb, skip-cert-verify: false}
-  - {name: KR_speednode_0024, server: 43.202.58.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_speednode_0025, server: 43.201.60.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0026, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 8c731386-ac56-32c3-a34a-726a20817b2d, alterId: 2, cipher: auto, network: ws, tls: false, ws-opts: {path: /, headers: {host: 11.v2-ray.cyou}}}
-  - {name: LV_speednode_0027, server: 185.135.86.86, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: PhilEhgKJQ540MNK7mNoim, udp: true}
-  - {name: NL_speednode_0028, server: 154.85.1.2, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
-  - {name: NL_speednode_0029, server: 154.85.1.2, port: 40424, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: None}
-  - {name: NL_speednode_0030, server: 37.218.240.112, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN}
-  - {name: RU_speednode_0031, server: 46.29.166.106, port: 33008, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, udp: true}
-  - {name: SG_speednode_0032, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, protocol-param: Non%%ￄ1�7}
-  - {name: SG_speednode_0033, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: SG_speednode_0034, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, protocol-param: Non%%}
-  - {name: SG_speednode_0035, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: SG_speednode_0036, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, protocol-param: None}
-  - {name: SG_speednode_0037, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME, obfs-param: None, protocol-param: None}
-  - {name: TR_speednode_0038, server: 45.89.52.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: TW_speednode_0039, server: tw1.kidcc.xyz, port: 8443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, ws-opts: {path: /}}
-  - {name: TW_speednode_0040, server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}, udp: true}
-  - {name: US_speednode_0041, server: 45.199.138.151, port: 49232, type: vmess, 7: None, 23|美国【付费推荐：https://tt.vg/vip】63: None, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0042, server: 45.199.138.136, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0043, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0044, server: 192.74.228.173, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0045, server: 140.99.49.6, port: 49982, type: vmess, 15: None, 16|美国 007: None, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0046, server: 216.52.183.245, port: 80, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: None}}
-  - {name: US_speednode_0047, server: 192.74.228.173, port: 42857, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e}
-  - {name: US_speednode_0048, server: 45.199.138.151, port: 49232, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0049, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0050, server: 45.92.160.22, port: 47839, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: US_speednode_0051, server: 156.225.67.102, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0052, server: 156.225.67.76, port: 40098, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0053, server: 137.175.54.216, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0054, server: 45.199.138.172, port: 42001, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0055, server: 216.52.183.244, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
-  - {name: US_speednode_0056, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
-  - {name: US_speednode_0057, server: 140.99.49.6, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0058, server: 45.199.138.133, port: 55594, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0059, server: 172.67.147.156, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /cutino, headers: {Host: char.samrg.buzz}}}
-  - {name: US_speednode_0060, server: 45.199.138.140, port: 49100, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0061, server: 45.199.138.136, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0062, server: char.samrg.buzz, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /cutino, headers: {Host: char.samrg.buzz}}}
-  - {name: US_speednode_0063, server: 74.217.182.115, port: 54432, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
-  - {name: US_speednode_0064, server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 8c731386-ac56-32c3-a34a-726a20817b2d, alterId: 2, cipher: auto, network: ws, tls: false, ws-opts: {path: /, headers: {host: 14.v2-ray.cyou}}}
-  - {name: US_speednode_0065, server: f1f3227.f3.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /s/f1f3227.fm.apple.com:111548, headers: {Host: f1f3227.f3.glados-config.net}}, udp: true}
-  - {name: US_speednode_0066, server: ust1.greenssh.xyz, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: ust1.greenssh.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0067, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: false, tls: true, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, ws-opts: {path: /cloudconeaaa}}
-  - {name: US_speednode_0068, server: 128.254.207.15, port: 443, type: ssr, protocol: auth_aes128_sha1, cipher: aes-256-cfb, obfs: plain, password: vyunme, obfs-param: t.me/vpnh%, protocol-param: 17422:TTp0SX}
-  - {name: US_speednode_0069, server: 45.12.144.91, port: 443, type: vmess, alterId: 64, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /path/1688289359107}}
-  - {name: US_speednode_0070, server: 45.199.138.90, port: 48123, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0071, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0072, server: 137.175.54.216, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
-  - {name: US_speednode_0073, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0074, server: 171.22.134.3, port: 53433, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /}}
-  - {name: US_speednode_0075, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
-  - {name: US_speednode_0076, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0077, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: 0d9a0392-e0a1-4bad-e877-3721def40f11, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /, headers: {host: hax2.992688.xyz}}}
-  - {name: VN_speednode_0078, server: 103.173.255.21, port: 443, type: trojan, password: 9451b229-2108-46b7-907f-b996dade373d, skip-cert-verify: true}
-  - {name: ZA_speednode_0079, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: ES_speednode_0003, server: v2node10.bipbupvpn.com, port: 443, type: vmess, uuid: 9761db37-0ff4-4e27-bdb3-a6d82e1f8633, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /AAA, headers: {host: v2node10.bipbupvpn.com}}}
+  - {name: FR_speednode_0004, server: 156.249.18.41, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: ws, tls: true, ws-opts: {path: /path/1689500157855, headers: {host: www.58174467.xyz}}}
+  - {name: GB_speednode_0005, server: 213.52.129.155, port: 43129, type: ss, cipher: chacha20-ietf-poly1305, password: 6520064026}
+  - {name: GB_speednode_0006, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: HK_speednode_0007, server: 156.245.8.84, port: 48123, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, network: none}
+  - {name: HK_speednode_0008, server: 156.245.8.66, port: 47855, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, network: tcp}
+  - {name: HK_speednode_0009, server: 156.245.8.143, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: IE_speednode_0010, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: IL_speednode_0011, server: v2node7.bipbupvpn.com, port: 443, type: vmess, uuid: 9761db37-0ff4-4e27-bdb3-a6d82e1f8633, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /AAA, headers: {host: v2node7.bipbupvpn.com}}}
+  - {name: IS_speednode_0012, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: KR_speednode_0013, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: KR_speednode_0014, server: ccarm.wasanbi.tk, port: 58678, type: trojan, password: z3NtLA8ocb, sni: getandroid.com, skip-cert-verify: true}
+  - {name: KR_speednode_0015, server: ccarm.wasanbi.tk, port: 58678, type: trojan, password: z3NtLA8ocb, skip-cert-verify: false}
+  - {name: LV_speednode_0016, server: 185.135.86.86, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: PhilEhgKJQ540MNK7mNoim, udp: true}
+  - {name: NL_speednode_0017, server: 154.85.1.2, port: 40424, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: None}
+  - {name: NL_speednode_0018, server: v2node12.bipbupvpn.com, port: 443, type: vmess, uuid: 9761db37-0ff4-4e27-bdb3-a6d82e1f8633, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /AAA, headers: {host: v2node12.bipbupvpn.com}}}
+  - {name: NL_speednode_0019, server: v2node13.bipbupvpn.com, port: 443, type: vmess, uuid: 9761db37-0ff4-4e27-bdb3-a6d82e1f8633, alterId: 0, cipher: auto, network: ws, tls: false, ws-opts: {path: /, headers: {host: v2node13.bipbupvpn.com}}}
+  - {name: NL_speednode_0020, server: 154.85.1.2, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
+  - {name: RU_speednode_0021, server: r.vfun.icu, port: 443, type: ssr, protocol: auth_aes128_sha1, cipher: aes-256-cfb, obfs: plain, password: vyunme, obfs-param: ab93117422.jd.hk, protocol-param: 17422:TTp0SX}
+  - {name: SG_speednode_0022, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: SG_speednode_0023, server: weo-sg-2.laowufly.cf, port: 1234, type: vmess, uuid: 2a65adbd-112c-4a16-8988-4a2b9e02d4f3, alterId: 0, cipher: auto, network: tcp}
+  - {name: SG_speednode_0024, server: weo-sg-2.laowufly.cf, port: 12345, type: ss, cipher: aes-128-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
+  - {name: SG_speednode_0025, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, protocol: origin, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: 3g0dHlKME}
+  - {name: SG_speednode_0026, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: SG_speednode_0027, server: cf.ielaina.com, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
+  - {name: TR_speednode_0028, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: TR_speednode_0029, server: 45.89.52.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: US_speednode_0030, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0031, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0032, server: 45.199.138.136, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0033, server: 140.99.57.4, port: 50042, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0034, server: 216.52.183.245, port: 80, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: None}}
+  - {name: US_speednode_0035, server: 140.99.77.12, port: 54774, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /}}
+  - {name: US_speednode_0036, server: 140.99.57.46, port: 59418, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /}}
+  - {name: US_speednode_0037, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0038, server: 216.52.183.244, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
+  - {name: US_speednode_0039, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
+  - {name: US_speednode_0040, server: 156.225.67.158, port: 48921, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: false, tls: false, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5}
+  - {name: US_speednode_0041, server: 156.225.67.103, port: 47792, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /}}
+  - {name: US_speednode_0042, server: 108.186.116.182, port: 55005, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0043, server: 156.225.67.158, port: 48921, type: vmess, alterId: 64, cipher: auto, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5}
+  - {name: US_speednode_0044, server: 45.199.138.92, port: 49232, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24}
+  - {name: US_speednode_0045, server: 108.186.116.182, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0046, server: 108.186.116.174, port: 55005, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0047, server: 171.22.134.29, port: 53433, type: vmess, alterId: 64, cipher: auto, network: None, skip-cert-verify: true, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0048, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0049, server: 171.22.134.2, port: 53433, type: vmess, alterId: 64, cipher: auto, network: None, skip-cert-verify: true, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0050, server: 140.99.77.12, port: 54774, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: false, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0051, server: 23.224.190.226, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0052, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0053, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0054, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0055, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0056, server: 156.225.67.76, port: 40098, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0057, server: 140.99.57.46, port: 59418, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0058, server: 45.199.138.136, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0059, server: 156.225.67.238, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0060, server: 156.225.67.102, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0061, server: 45.199.138.140, port: 49100, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0062, server: 45.199.138.172, port: 42001, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0063, server: 23.224.190.226, port: 58022, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {path: /}}
+  - {name: US_speednode_0064, server: 140.99.57.4, port: 50042, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0065, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0066, server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0067, server: 171.22.134.29, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0068, server: ust1.greenssh.xyz, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: ust1.greenssh.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0069, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0070, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: US_speednode_0071, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: None}}
+  - {name: US_speednode_0072, server: 74.217.182.115, port: 54432, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: none}
+  - {name: US_speednode_0073, server: 137.175.54.216, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: tcp}
+  - {name: US_speednode_0074, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0075, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: false, tls: true, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, ws-opts: {path: /cloudconeaaa}}
+  - {name: VN_speednode_0076, server: 103.173.255.21, port: 443, type: trojan, password: 9451b229-2108-46b7-907f-b996dade373d, skip-cert-verify: true}
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
   - ♻️ automatic
-  - DE_speednode_0001
+  - CH_speednode_0001
   - DK_speednode_0002
-  - FR_speednode_0003
+  - ES_speednode_0003
   - FR_speednode_0004
-  - FR_speednode_0005
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - FR_speednode_0008
-  - GB_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - HK_speednode_0012
-  - HK_speednode_0013
-  - HK_speednode_0014
-  - HK_speednode_0015
-  - IE_speednode_0016
-  - IS_speednode_0017
-  - JP_speednode_0018
-  - JP_speednode_0019
-  - KR_speednode_0020
-  - KR_speednode_0021
-  - KR_speednode_0022
-  - KR_speednode_0023
-  - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - LV_speednode_0027
-  - NL_speednode_0028
-  - NL_speednode_0029
-  - NL_speednode_0030
-  - RU_speednode_0031
-  - SG_speednode_0032
-  - SG_speednode_0033
-  - SG_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - TR_speednode_0038
-  - TW_speednode_0039
-  - TW_speednode_0040
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - HK_speednode_0007
+  - HK_speednode_0008
+  - HK_speednode_0009
+  - IE_speednode_0010
+  - IL_speednode_0011
+  - IS_speednode_0012
+  - KR_speednode_0013
+  - KR_speednode_0014
+  - KR_speednode_0015
+  - LV_speednode_0016
+  - NL_speednode_0017
+  - NL_speednode_0018
+  - NL_speednode_0019
+  - NL_speednode_0020
+  - RU_speednode_0021
+  - SG_speednode_0022
+  - SG_speednode_0023
+  - SG_speednode_0024
+  - SG_speednode_0025
+  - SG_speednode_0026
+  - SG_speednode_0027
+  - TR_speednode_0028
+  - TR_speednode_0029
+  - US_speednode_0030
+  - US_speednode_0031
+  - US_speednode_0032
+  - US_speednode_0033
+  - US_speednode_0034
+  - US_speednode_0035
+  - US_speednode_0036
+  - US_speednode_0037
+  - US_speednode_0038
+  - US_speednode_0039
+  - US_speednode_0040
   - US_speednode_0041
   - US_speednode_0042
   - US_speednode_0043
@@ -161,53 +158,50 @@ proxy-groups:
   - US_speednode_0073
   - US_speednode_0074
   - US_speednode_0075
-  - US_speednode_0076
-  - US_speednode_0077
-  - VN_speednode_0078
-  - ZA_speednode_0079
+  - VN_speednode_0076
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - DE_speednode_0001
+  - CH_speednode_0001
   - DK_speednode_0002
-  - FR_speednode_0003
+  - ES_speednode_0003
   - FR_speednode_0004
-  - FR_speednode_0005
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - FR_speednode_0008
-  - GB_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - HK_speednode_0012
-  - HK_speednode_0013
-  - HK_speednode_0014
-  - HK_speednode_0015
-  - IE_speednode_0016
-  - IS_speednode_0017
-  - JP_speednode_0018
-  - JP_speednode_0019
-  - KR_speednode_0020
-  - KR_speednode_0021
-  - KR_speednode_0022
-  - KR_speednode_0023
-  - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - LV_speednode_0027
-  - NL_speednode_0028
-  - NL_speednode_0029
-  - NL_speednode_0030
-  - RU_speednode_0031
-  - SG_speednode_0032
-  - SG_speednode_0033
-  - SG_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - TR_speednode_0038
-  - TW_speednode_0039
-  - TW_speednode_0040
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - HK_speednode_0007
+  - HK_speednode_0008
+  - HK_speednode_0009
+  - IE_speednode_0010
+  - IL_speednode_0011
+  - IS_speednode_0012
+  - KR_speednode_0013
+  - KR_speednode_0014
+  - KR_speednode_0015
+  - LV_speednode_0016
+  - NL_speednode_0017
+  - NL_speednode_0018
+  - NL_speednode_0019
+  - NL_speednode_0020
+  - RU_speednode_0021
+  - SG_speednode_0022
+  - SG_speednode_0023
+  - SG_speednode_0024
+  - SG_speednode_0025
+  - SG_speednode_0026
+  - SG_speednode_0027
+  - TR_speednode_0028
+  - TR_speednode_0029
+  - US_speednode_0030
+  - US_speednode_0031
+  - US_speednode_0032
+  - US_speednode_0033
+  - US_speednode_0034
+  - US_speednode_0035
+  - US_speednode_0036
+  - US_speednode_0037
+  - US_speednode_0038
+  - US_speednode_0039
+  - US_speednode_0040
   - US_speednode_0041
   - US_speednode_0042
   - US_speednode_0043
@@ -243,10 +237,7 @@ proxy-groups:
   - US_speednode_0073
   - US_speednode_0074
   - US_speednode_0075
-  - US_speednode_0076
-  - US_speednode_0077
-  - VN_speednode_0078
-  - ZA_speednode_0079
+  - VN_speednode_0076
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
