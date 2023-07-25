@@ -24,7 +24,7 @@ proxies:
   - {name: US_speednode_0020, server: 69.25.115.162, port: 443, type: vmess, client-fingerprint: chrome, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1689935243027, headers: {Host: www.69908657.xyz}}}
   - {name: VN_speednode_0021, server: 103.173.255.21, port: 443, type: trojan, password: a2cc8c63-3e75-44db-8230-08dbf5aeda17, skip-cert-verify: true}
   - {name: VN_speednode_0022, server: 103.173.255.21, port: 443, type: trojan, password: 851a6dba-e7c9-4973-a16d-1ca7bc813574, skip-cert-verify: true}
-  - {name: 未知_07252091_speednode_0047_speednode_0023, server: vn2.microsoft-orgwly.vip, port: 10018, type: trojan, password: aa01d001-3ffb-4d27-8e25-3f13db46c093, sni: lht.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: speednode_0023, server: vn2.microsoft-orgwly.vip, port: 10018, type: trojan, password: aa01d001-3ffb-4d27-8e25-3f13db46c093, sni: lht.microsoft-orgwly.vip, skip-cert-verify: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -52,7 +52,7 @@ proxy-groups:
   - US_speednode_0020
   - VN_speednode_0021
   - VN_speednode_0022
-  - 未知_07252091_speednode_0047_speednode_0023
+  - speednode_0023
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -78,7 +78,7 @@ proxy-groups:
   - US_speednode_0020
   - VN_speednode_0021
   - VN_speednode_0022
-  - 未知_07252091_speednode_0047_speednode_0023
+  - speednode_0023
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
