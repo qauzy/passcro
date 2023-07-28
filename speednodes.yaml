@@ -78,7 +78,7 @@ proxies:
   - {name: US_speednode_0074, server: 140.99.120.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1690282577532, headers: {Host: www.22716613.xyz}}, udp: true}
   - {name: US_speednode_0075, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: ZA_speednode_0076, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: speednode_0077, server: vn2.microsoft-orgwly.vip, port: 10018, type: trojan, password: aa01d001-3ffb-4d27-8e25-3f13db46c093, sni: lht.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: ZZ_speednode_0077, server: vn2.microsoft-orgwly.vip, port: 10018, type: trojan, password: aa01d001-3ffb-4d27-8e25-3f13db46c093, sni: lht.microsoft-orgwly.vip, skip-cert-verify: true}
 proxy-groups:
 - name: Proxy
   type: select
@@ -160,7 +160,7 @@ proxy-groups:
   - US_speednode_0074
   - US_speednode_0075
   - ZA_speednode_0076
-  - speednode_0077
+  - ZZ_speednode_0077
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -240,7 +240,7 @@ proxy-groups:
   - US_speednode_0074
   - US_speednode_0075
   - ZA_speednode_0076
-  - speednode_0077
+  - ZZ_speednode_0077
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
