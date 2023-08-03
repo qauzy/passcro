@@ -80,8 +80,6 @@ proxies:
   - {name: US_speednode_0076, server: 104.24.255.84, port: 2082, type: vmess, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: tot.vtcss.top}}, udp: true}
   - {name: US_speednode_0077, server: 23.224.8.84, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1690866578068, headers: {host: www.76432641.xyz}}}
   - {name: US_speednode_0078, server: 104.27.6.70, port: 2082, type: vmess, cipher: auto, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {host: tot.vtcss.top}}}
-  - {name: US_speednode_0079, server: 140.99.155.100, port: 443, type: vmess, alterId: 64, cipher: auto, network: ws, servername: "", tls: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, ws-opts: {headers: {Host: www.68178927.xyz}, path: /path/1689588497765}}
-  - {name: US_speednode_0080, server: 140.99.155.100, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1689588497765, headers: {Host: www.68178927.xyz}}}
   - {name: US_speednode_0081, server: 34.219.40.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: US_speednode_0082, server: 104.25.213.122, port: 2082, type: vmess, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: tot.vtcss.top}}, udp: true}
   - {name: US_speednode_0083, server: db2.shabijichang.com, port: 80, type: vmess, cipher: auto, uuid: 4055dafe-1b9f-4463-b84c-0be67858f117, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {host: db2.shabijichang.com}}}
@@ -180,8 +178,6 @@ proxy-groups:
   - US_speednode_0076
   - US_speednode_0077
   - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
   - US_speednode_0081
   - US_speednode_0082
   - US_speednode_0083
@@ -278,8 +274,6 @@ proxy-groups:
   - US_speednode_0076
   - US_speednode_0077
   - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
   - US_speednode_0081
   - US_speednode_0082
   - US_speednode_0083
