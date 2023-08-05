@@ -140,7 +140,7 @@ proxies:
   - {name: US_speednode_0136, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 16478092-eecd-4577-89fc-9b12c5be18dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
   - {name: US_speednode_0137, server: 37.1.211.52, port: 3000, type: vmess, uuid: b97ad283-287e-4e20-a741-f16f7d074590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: US_speednode_0138, server: uciti.xyz, port: 12569, type: vmess, uuid: e77f1cb2-6e7a-458b-f698-6e1fa9a5fbf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: eednode_0142_speednode_0119_speednode_0139, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
+  - {name: speednode_0139, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
 proxy-groups:
 - name: Proxy
   type: select
@@ -284,7 +284,7 @@ proxy-groups:
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0138
-  - eednode_0142_speednode_0119_speednode_0139
+  - speednode_0139
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -426,7 +426,7 @@ proxy-groups:
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0138
-  - eednode_0142_speednode_0119_speednode_0139
+  - speednode_0139
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
