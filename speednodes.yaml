@@ -102,7 +102,7 @@ proxies:
   - {name: US_speednode_0098, server: 142.4.118.229, port: 443, type: vmess, country: 🇺🇸US, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /path/180024340312}}
   - {name: US_speednode_0099, server: 192.74.243.49, port: 443, type: vmess, country: 🇺🇸US, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /path/042834190821}}
   - {name: US_speednode_0100, server: 142.4.112.134, port: 443, type: vmess, country: 🇺🇸US, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /path/1689157081858}}
-  - {name: eednode_0142_speednode_0119_speednode_0101, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
+  - {name: speednode_0101, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
 proxy-groups:
 - name: Proxy
   type: select
@@ -208,7 +208,7 @@ proxy-groups:
   - US_speednode_0098
   - US_speednode_0099
   - US_speednode_0100
-  - eednode_0142_speednode_0119_speednode_0101
+  - speednode_0101
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -312,7 +312,7 @@ proxy-groups:
   - US_speednode_0098
   - US_speednode_0099
   - US_speednode_0100
-  - eednode_0142_speednode_0119_speednode_0101
+  - speednode_0101
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
