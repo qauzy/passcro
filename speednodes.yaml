@@ -120,7 +120,7 @@ proxies:
   - {name: US_speednode_0116, server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, sni: 15.204.210.176, skip-cert-verify: true, udp: true}
   - {name: US_speednode_0117, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 16478092-eecd-4577-89fc-9b12c5be18dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
   - {name: US_speednode_0118, server: 74.217.182.105, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1690973478986, headers: {host: www.59197212.xyz}}}
-  - {name: 🇷🇺俄罗斯(youtube阿伟科技)_2_speednode_0137_speednode_0119, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
+  - {name: ZZ_speednode_0119, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
 proxy-groups:
 - name: Proxy
   type: select
@@ -244,7 +244,7 @@ proxy-groups:
   - US_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
-  - 🇷🇺俄罗斯(youtube阿伟科技)_2_speednode_0137_speednode_0119
+  - ZZ_speednode_0119
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -366,7 +366,7 @@ proxy-groups:
   - US_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
-  - 🇷🇺俄罗斯(youtube阿伟科技)_2_speednode_0137_speednode_0119
+  - ZZ_speednode_0119
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
