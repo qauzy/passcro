@@ -10,9 +10,11 @@ proxies:
   - {name: DE_speednode_0006, server: uk1.jetfast.top, port: 443, type: vmess, uuid: 90b70926-a7c5-44bd-9af7-eca52f8783a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /user, headers: {Host: uk1.jetfast.top}}}
   - {name: DE_speednode_0007, server: 3.77.22.167, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: DK_speednode_0008, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: FR_speednode_0009, server: 13.39.229.5, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: FR_speednode_0010, server: 13.38.16.115, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: FR_speednode_0011, server: 13.39.38.222, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: FR_speednode_0012, server: 156.249.18.136, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.69414502.xyz, network: ws, ws-opts: {path: /path/1689326360096}}
+  - {name: FR_speednode_0013, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: GB_speednode_0014, server: 3.11.180.82, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: GB_speednode_0015, server: 3.9.127.187, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: GB_speednode_0016, server: 18.168.78.22, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
@@ -30,7 +32,6 @@ proxies:
   - {name: IE_speednode_0028, server: 34.254.39.213, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: IE_speednode_0029, server: 52.31.145.210, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
   - {name: IS_speednode_0030, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: KR_speednode_0031, server: 43.202.49.222, port: 2333, type: ss, Inc. 2: None, cipher: aes-256-cfb, password: doub.io}
   - {name: LV_speednode_0032, server: 185.135.86.173, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: NU_speednode_0033, server: sblarm.kaolll.tech, port: 80, type: vmess, uuid: 53c6d1a9-2fb7-444f-8f2c-82f7659f017c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}}
   - {name: NU_speednode_0034, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: 3fdf5fe5-f2df-46bd-b51b-c84a1ecf8a03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}}
@@ -62,7 +63,6 @@ proxies:
   - {name: US_speednode_0060, server: 142.4.126.20, port: 51815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: US_speednode_0061, server: 45.199.138.155, port: 54005, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: US_speednode_0062, server: 140.99.128.100, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US_speednode_0063, server: 45.137.97.230, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, uuid: a54fd3bc-3764-40cd-ff5a-471470417eac, ws-opts: {path: /TG:@hkaa0}}
   - {name: US_speednode_0064, server: 45.137.97.140, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, ws-opts: {path: /TG:@hkaa0}}
   - {name: US_speednode_0065, server: 45.137.97.241, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, uuid: 32af4006-0698-4910-806c-b813074f36eb, ws-opts: {path: /TG:@hkaa0}}
   - {name: US_speednode_0066, server: 156.225.67.15, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1691750259012, headers: {Host: www.84938863.xyz}}, udp: true}
@@ -106,9 +106,11 @@ proxy-groups:
   - DE_speednode_0006
   - DE_speednode_0007
   - DK_speednode_0008
+  - FR_speednode_0009
   - FR_speednode_0010
   - FR_speednode_0011
   - FR_speednode_0012
+  - FR_speednode_0013
   - GB_speednode_0014
   - GB_speednode_0015
   - GB_speednode_0016
@@ -126,7 +128,6 @@ proxy-groups:
   - IE_speednode_0028
   - IE_speednode_0029
   - IS_speednode_0030
-  - KR_speednode_0031
   - LV_speednode_0032
   - NU_speednode_0033
   - NU_speednode_0034
@@ -158,7 +159,6 @@ proxy-groups:
   - US_speednode_0060
   - US_speednode_0061
   - US_speednode_0062
-  - US_speednode_0063
   - US_speednode_0064
   - US_speednode_0065
   - US_speednode_0066
@@ -200,9 +200,11 @@ proxy-groups:
   - DE_speednode_0006
   - DE_speednode_0007
   - DK_speednode_0008
+  - FR_speednode_0009
   - FR_speednode_0010
   - FR_speednode_0011
   - FR_speednode_0012
+  - FR_speednode_0013
   - GB_speednode_0014
   - GB_speednode_0015
   - GB_speednode_0016
@@ -220,7 +222,6 @@ proxy-groups:
   - IE_speednode_0028
   - IE_speednode_0029
   - IS_speednode_0030
-  - KR_speednode_0031
   - LV_speednode_0032
   - NU_speednode_0033
   - NU_speednode_0034
@@ -252,7 +253,6 @@ proxy-groups:
   - US_speednode_0060
   - US_speednode_0061
   - US_speednode_0062
-  - US_speednode_0063
   - US_speednode_0064
   - US_speednode_0065
   - US_speednode_0066
