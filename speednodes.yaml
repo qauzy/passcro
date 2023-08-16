@@ -71,7 +71,6 @@ proxies:
   - {name: SG_speednode_0067, server: 103.172.116.220, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
   - {name: SG_speednode_0068, server: 185.230.245.213, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
   - {name: SG_speednode_0069, server: 103.172.116.252, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
-  - {name: SG_speednode_0070, server: 103.172.116.251, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
   - {name: TW_speednode_0071, server: 211.75.220.14, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 221260eea:138218}, udp: true}
   - {name: TW_speednode_0072, server: 211.75.220.17, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 03041b0:23622}, udp: true}
   - {name: TW_speednode_0073, server: 211.75.220.14, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 03041b0:23622}, udp: true}
@@ -360,7 +359,6 @@ proxy-groups:
   - SG_speednode_0067
   - SG_speednode_0068
   - SG_speednode_0069
-  - SG_speednode_0070
   - TW_speednode_0071
   - TW_speednode_0072
   - TW_speednode_0073
@@ -647,7 +645,6 @@ proxy-groups:
   - SG_speednode_0067
   - SG_speednode_0068
   - SG_speednode_0069
-  - SG_speednode_0070
   - TW_speednode_0071
   - TW_speednode_0072
   - TW_speednode_0073
