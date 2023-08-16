@@ -245,7 +245,6 @@ proxies:
   - {name: TW_speednode_0241, server: 203.69.224.180, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 12a00c4:82897}, udp: true}
   - {name: TW_speednode_0242, server: 203.69.224.178, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: feec8af:29306}, udp: true}
   - {name: TW_speednode_0243, server: 203.69.224.177, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: c9d93ec:145794}, udp: true}
-  - {name: TW_speednode_0244, server: 103.177.33.180, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
   - {name: US_speednode_0245, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 03041b0:23622}, udp: true}
   - {name: US_speednode_0246, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
   - {name: US_speednode_0247, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 03041b0:23622}, udp: true}
@@ -582,7 +581,6 @@ proxy-groups:
   - TW_speednode_0241
   - TW_speednode_0242
   - TW_speednode_0243
-  - TW_speednode_0244
   - US_speednode_0245
   - US_speednode_0246
   - US_speednode_0247
@@ -917,7 +915,6 @@ proxy-groups:
   - TW_speednode_0241
   - TW_speednode_0242
   - TW_speednode_0243
-  - TW_speednode_0244
   - US_speednode_0245
   - US_speednode_0246
   - US_speednode_0247
