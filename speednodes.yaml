@@ -284,7 +284,7 @@ proxies:
   - {name: US_speednode_0280, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}}
   - {name: US_speednode_0281, server: 142.4.114.99, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173300203323, headers: {host: www.11141292.xyz}}}
   - {name: US_speednode_0282, server: 38.54.250.49, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/121016071014, headers: {host: www.80128693.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 67_speednode_0283, server: 816.outline-vpn.cloud, port: 9098, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, tfo: false}
+  - {name: US_speednode_0283, server: 816.outline-vpn.cloud, port: 9098, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, tfo: false}
 proxy-groups:
 - name: Proxy
   type: select
@@ -572,7 +572,7 @@ proxy-groups:
   - US_speednode_0280
   - US_speednode_0281
   - US_speednode_0282
-  - 🇺🇸 美国_Telegram@kxswa 67_speednode_0283
+  - US_speednode_0283
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -858,7 +858,7 @@ proxy-groups:
   - US_speednode_0280
   - US_speednode_0281
   - US_speednode_0282
-  - 🇺🇸 美国_Telegram@kxswa 67_speednode_0283
+  - US_speednode_0283
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
