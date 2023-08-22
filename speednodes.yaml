@@ -274,7 +274,7 @@ proxies:
   - {name: US_speednode_0270, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}}
   - {name: US_speednode_0271, server: 142.4.114.99, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173300203323, headers: {host: www.11141292.xyz}}}
   - {name: US_speednode_0272, server: 38.54.250.49, port: 443, type: vmess, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/121016071014, headers: {host: www.80128693.xyz}}}
-  - {name: US_speednode_speednode_0273, server: 816.outline-vpn.cloud, port: 9098, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, tfo: false}
+  - {name: US_speednode_0273, server: 816.outline-vpn.cloud, port: 9098, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, tfo: false}
 proxy-groups:
 - name: Proxy
   type: select
