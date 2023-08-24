@@ -24,7 +24,6 @@ proxies:
   - {name: FR_speednode_0020, server: 156.249.18.22, port: 443, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/146731261014, headers: {Host: www.20163322.xyz}}, udp: true}
   - {name: HK_speednode_0021, server: 156.245.8.151, port: 40819, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: HK_speednode_0022, server: 156.245.8.246, port: 39651, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0023, server: hk1.594888.xyz, port: 2443, type: vmess, uuid: 69257560-0c2d-31be-827b-ef45b54bd386, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /maohk3, headers: {Host: hk1.594888.xyz}}}
   - {name: HK_speednode_0024, server: 156.245.8.144, port: 443, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/146731261014, headers: {Host: www.32159877.xyz}}, udp: true}
   - {name: HK_speednode_0025, server: 156.245.8.168, port: 443, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/142731263014, headers: {Host: www.12460158.xyz}}, udp: true}
   - {name: HK_speednode_0026, server: 156.245.8.141, port: 443, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/142731261014, headers: {Host: www.92873889.xyz}}, udp: true}
@@ -261,7 +260,6 @@ proxy-groups:
   - FR_speednode_0020
   - HK_speednode_0021
   - HK_speednode_0022
-  - HK_speednode_0023
   - HK_speednode_0024
   - HK_speednode_0025
   - HK_speednode_0026
@@ -496,7 +494,6 @@ proxy-groups:
   - FR_speednode_0020
   - HK_speednode_0021
   - HK_speednode_0022
-  - HK_speednode_0023
   - HK_speednode_0024
   - HK_speednode_0025
   - HK_speednode_0026
