@@ -7,7 +7,6 @@ proxies:
   - {name: CN_speednode_0003, server: 36.141.40.34, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: CN_speednode_0004, server: 42.157.195.230, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: CN_speednode_0005, server: 42.157.195.229, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
-  - {name: CN_speednode_0006, server: 42.157.195.235, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: CN_speednode_0007, server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: CN_speednode_0008, server: 42.157.195.236, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: CN_speednode_0009, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: None}
@@ -38,7 +37,6 @@ proxies:
   - {name: FR_speednode_0034, server: 13.36.12.180, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: FR_speednode_0035, server: 15.236.249.161, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: HK_speednode_0036, server: 156.245.8.151, port: 53619, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: IE_speednode_0037, server: 99.81.90.157, port: 22222, type: trojan, Inc. 4: None, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: IE_speednode_0038, server: 54.220.101.231, port: 22222, type: trojan, Inc.: None, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: KR_speednode_0039, server: 52.79.125.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: KR_speednode_0040, server: arm.gougouvpn.xyz, port: 8058, type: ss, cipher: chacha20-ietf-poly1305, password: 5ae3363e-252a-4466-8eba-3e2efb90c434, udp: true}
@@ -91,7 +89,6 @@ proxy-groups:
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - CN_speednode_0006
   - CN_speednode_0007
   - CN_speednode_0008
   - CN_speednode_0009
@@ -122,7 +119,6 @@ proxy-groups:
   - FR_speednode_0034
   - FR_speednode_0035
   - HK_speednode_0036
-  - IE_speednode_0037
   - IE_speednode_0038
   - KR_speednode_0039
   - KR_speednode_0040
@@ -173,7 +169,6 @@ proxy-groups:
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - CN_speednode_0006
   - CN_speednode_0007
   - CN_speednode_0008
   - CN_speednode_0009
@@ -204,7 +199,6 @@ proxy-groups:
   - FR_speednode_0034
   - FR_speednode_0035
   - HK_speednode_0036
-  - IE_speednode_0037
   - IE_speednode_0038
   - KR_speednode_0039
   - KR_speednode_0040
