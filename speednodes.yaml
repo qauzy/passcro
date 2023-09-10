@@ -16,7 +16,6 @@ proxies:
   - {name: JP_speednode_0012, server: hk5.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16952:9bik8I, obfs-param: None, udp: true}
   - {name: JP_speednode_0013, server: 155.248.177.112, port: 40794, type: vmess, alterId: 0, cipher: auto, network: ws, servername: "", tls: true, uuid: 038ea99a-eab0-3e54-bf26-ce164f3766b5, ws-opts: {headers: {Host: tk-007.xiaoxiaobujidao.xyz}, path: "/xiaodao?ed=2048"}}
   - {name: JP_speednode_0014, server: 155.248.177.112, port: 40794, type: vmess, uuid: 038ea99a-eab0-3e54-bf26-ce164f3766b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: tk-007.xiaoxiaobujidao.xyz}}, udp: true}
-  - {name: NU_speednode_0015, server: us1.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /jdbp606, headers: {Host: us1.mianfenyun012.eu.org}}}
   - {name: NU_speednode_0016, server: amstdheaa.76898102.xyz, port: 2095, type: vmess, uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: amstdhea.76898102.xyz}}, udp: true}
   - {name: SG_speednode_0017, server: 18.140.53.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: SG_speednode_0018, server: 8.222.133.63, port: 2082, type: vmess, uuid: 850ead7c-86e2-4f66-88ee-77cc6a2f139c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
@@ -45,7 +44,6 @@ proxy-groups:
   - JP_speednode_0012
   - JP_speednode_0013
   - JP_speednode_0014
-  - NU_speednode_0015
   - NU_speednode_0016
   - SG_speednode_0017
   - SG_speednode_0018
@@ -72,7 +70,6 @@ proxy-groups:
   - JP_speednode_0012
   - JP_speednode_0013
   - JP_speednode_0014
-  - NU_speednode_0015
   - NU_speednode_0016
   - SG_speednode_0017
   - SG_speednode_0018
