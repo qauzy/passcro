@@ -35,7 +35,7 @@ proxies:
   - {name: SG_speednode_0031, server: 2sg001.156786.xyz, port: 45654, type: trojan, udp: true, password: a576b328-9233-45b8-97c4-8c688397a9fc, sni: 2sg001.156786.xyz, skip-cert-verify: true, network: tcp}
   - {name: SG_speednode_0032, server: cgfpt-1060-tr-0.d-cmi.ddll.bond, port: 889, type: trojan, udp: true, password: PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg, sni: cdn.cjhh.lol, skip-cert-verify: true, network: tcp}
   - {name: TW_speednode_0033, server: wqryo-1075-v2-0.d-hinet-02.ddll.bond, port: 888, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}, udp: true}
-  - {name: YouTube面具人哈乐_英国_58_speednode_0050_speednode_0034, server: 91.228.10.89, port: 80, type: ss, password: 72JB7n05CEq4sjH0Rz4YzV, cipher: chacha20-ietf-poly1305}
+  - {name: UK_speednode_0034, server: 91.228.10.89, port: 80, type: ss, password: 72JB7n05CEq4sjH0Rz4YzV, cipher: chacha20-ietf-poly1305}
 proxy-groups:
 - name: Proxy
   type: select
@@ -74,7 +74,7 @@ proxy-groups:
   - SG_speednode_0031
   - SG_speednode_0032
   - TW_speednode_0033
-  - YouTube面具人哈乐_英国_58_speednode_0050_speednode_0034
+  - UK_speednode_0034
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -111,7 +111,7 @@ proxy-groups:
   - SG_speednode_0031
   - SG_speednode_0032
   - TW_speednode_0033
-  - YouTube面具人哈乐_英国_58_speednode_0050_speednode_0034
+  - UK_speednode_0034
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
