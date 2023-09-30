@@ -6,7 +6,6 @@ proxies:
   - {name: CN_speednode_0002, server: 183.249.20.153, port: 64012, type: vmess, uuid: 1f3eb856-26ca-3480-872c-c911ea27cf65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0003, server: 120.241.46.222, port: 64012, type: vmess, uuid: 1f3eb856-26ca-3480-872c-c911ea27cf65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0004, server: 183.232.170.32, port: 20022, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: CN_speednode_0005, server: vip.basicnode.host, port: 16627, type: vmess, uuid: 4aa447d6-744b-32f9-9a8f-a39ca2f89b60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /niuniu, headers: {Host: vip.basicnode.host}}}
   - {name: CN_speednode_0006, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 1e57bafd-e0d8-4881-914d-43f714795a91, udp: true}
   - {name: CN_speednode_0007, server: 183.232.170.32, port: 20013, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: DE_speednode_0008, server: 89.187.169.38, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -29,7 +28,6 @@ proxies:
   - {name: US_speednode_0025, server: 216.52.183.243, port: 1001, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: US_speednode_0026, server: ryoza-1088-v2-1.d-kcd.tuil.xyz, port: 888, type: vmess, uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: s3.cjhh.beauty}}}
   - {name: US_speednode_0027, server: 129.80.185.15, port: 32733, type: vmess, uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /fb9da0cf, headers: {Host: 129.80.185.15}}}
-  - {name: US_speednode_0028, server: 172.67.221.18, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
   - {name: US_speednode_0029, server: 3.12.75.7, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
   - {name: US_speednode_0030, server: 51.81.201.148, port: 8880, type: vmess, uuid: 1b2c1cb4-55ca-45f0-b667-119e395e1816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /api/v3/download.getFile, headers: {Host: 51.81.201.148}}}
   - {name: US_speednode_0031, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}}
@@ -42,7 +40,6 @@ proxy-groups:
   - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
-  - CN_speednode_0005
   - CN_speednode_0006
   - CN_speednode_0007
   - DE_speednode_0008
@@ -65,7 +62,6 @@ proxy-groups:
   - US_speednode_0025
   - US_speednode_0026
   - US_speednode_0027
-  - US_speednode_0028
   - US_speednode_0029
   - US_speednode_0030
   - US_speednode_0031
@@ -76,7 +72,6 @@ proxy-groups:
   - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
-  - CN_speednode_0005
   - CN_speednode_0006
   - CN_speednode_0007
   - DE_speednode_0008
@@ -99,7 +94,6 @@ proxy-groups:
   - US_speednode_0025
   - US_speednode_0026
   - US_speednode_0027
-  - US_speednode_0028
   - US_speednode_0029
   - US_speednode_0030
   - US_speednode_0031
