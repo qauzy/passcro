@@ -2,57 +2,43 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CN_speednode_0001, server: 120.232.165.61, port: 9900, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0002, server: 120.232.165.61, port: 31001, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0003, server: 183.240.221.21, port: 65533, type: ss, cipher: chacha20-ietf-poly1305, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0004, server: 203.156.198.54, port: 51001, type: ss, cipher: chacha20-ietf-poly1305, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0005, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0006, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0007, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
-  - {name: CN_speednode_0008, server: 120.232.165.61, port: 32001, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0009, server: 120.232.165.61, port: 32006, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0010, server: 120.232.165.61, port: 32002, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
+  - {name: CN_speednode_0001, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
+  - {name: CN_speednode_0004, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0005, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0006, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0007, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0008, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0009, server: us01.shawbrothersstudio.com, port: 19922, type: ss, password: Lam6mgI0ZnIqT459CTTOJR, cipher: chacha20-ietf-poly1305}
+  - {name: CN_speednode_0010, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0011, server: 183.232.170.32, port: 20011, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: g12sQi#ss#&1, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: CN_speednode_0012, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0013, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0014, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0015, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0016, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0017, server: 120.232.165.61, port: 32003, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0018, server: gzcm01.celerlink.one, port: 41032, type: ss, password: d9fbe6612bdf9696, cipher: chacha20-ietf-poly1305}
-  - {name: CN_speednode_0019, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0020, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0021, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0022, server: us01.shawbrothersstudio.com, port: 19922, type: ss, password: Lam6mgI0ZnIqT459CTTOJR, cipher: chacha20-ietf-poly1305}
-  - {name: CN_speednode_0023, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0024, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0025, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0012, server: gzcm01.celerlink.one, port: 41032, type: ss, password: d9fbe6612bdf9696, cipher: chacha20-ietf-poly1305}
+  - {name: CN_speednode_0013, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0014, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0015, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0016, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0017, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0018, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0019, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0020, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0021, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0022, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0023, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0024, server: 183.232.170.32, port: 20011, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
+  - {name: CN_speednode_0025, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0026, server: 111.38.37.245, port: 50205, type: vmess, cipher: auto, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, tls: false, skip-cert-verify: true, servername: "", network: ws, ws-opts: {path: /debian, headers: {host: 111.38.37.245}}}
-  - {name: CN_speednode_0027, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0027, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0028, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0029, server: 183.232.170.32, port: 20011, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
-  - {name: CN_speednode_0030, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0031, server: 120.232.165.61, port: 32007, type: ss, cipher: aes-128-gcm, password: bbf04cb3-df5f-4ba6-a8c9-699ad42556b6, udp: true}
-  - {name: CN_speednode_0032, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0033, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0034, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0035, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 73d65f93-37da-4733-ac5a-bd1ef5c9d9fc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0036, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0037, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0038, server: 120.241.46.222, port: 63011, type: vmess, client-fingerprint: chrome, uuid: 798b440f-b27d-3247-88be-3e2767daef83, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dabai.in, headers: {Host: b.cn-db.top}}}
-  - {name: CN_speednode_0039, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: DE_speednode_0040, server: 89.187.169.38, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: HK_speednode_0041, server: 103.246.244.178, port: 443, type: ss, cipher: aes-256-gcm, client-fingerprint: chrome, password: 41964a60e8bd, plugin: v2ray-plugin, plugin-opts: {host: yjy5.viynos.com, mode: websocket, mux: true, path: /kdjzdrfczb, skip-cert-verify: false, tls: true}, tfo: false}
-  - {name: HK_speednode_0042, server: 103.246.244.178, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-256-gcm, password: 41964a60e8bd, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: yjy5.viynos.com, path: /kdjzdrfczb, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: KR_speednode_0043, server: 43.202.68.47, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: SG_speednode_0044, server: 13.229.197.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0045, server: 18.143.182.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: UA_speednode_0046, server: www.outline.network.ak1924.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 51348, type: ss, password: NeVavl43FD6DgFoim7S6HGks, cipher: chacha20-ietf-poly1305}
-  - {name: UA_speednode_0047, server: 194.38.23.137, port: 51348, type: ss, password: NeVavl43FD6DgFoim7S6HGks, cipher: chacha20-ietf-poly1305}
-  - {name: UA_speednode_0048, server: uk-c2261789.nip.io, port: 51348, type: ss, password: NeVavl43FD6DgFoim7S6HGks, cipher: chacha20-ietf-poly1305}
-  - {name: UA_speednode_0049, server: www.outline.network.ak1890.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 51348, type: ss, password: NeVavl43FD6DgFoim7S6HGks, cipher: chacha20-ietf-poly1305}
-  - {name: US_speednode_0050, server: 216.52.183.243, port: 1002, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: US_speednode_0051, server: 216.52.183.243, port: 1002, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
+  - {name: CN_speednode_0029, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 603b6ed7-81a9-4204-b59d-9cd5f260acd5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: DE_speednode_0030, server: 89.187.169.38, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: HK_speednode_0031, server: 103.246.244.178, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-256-gcm, password: 41964a60e8bd, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: yjy5.viynos.com, path: /kdjzdrfczb, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: HK_speednode_0032, server: 103.246.244.178, port: 443, type: ss, cipher: aes-256-gcm, client-fingerprint: chrome, password: 41964a60e8bd, plugin: v2ray-plugin, plugin-opts: {host: yjy5.viynos.com, mode: websocket, mux: true, path: /kdjzdrfczb, skip-cert-verify: false, tls: true}, tfo: false}
+  - {name: KR_speednode_0033, server: 43.202.68.47, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: SG_speednode_0034, server: 18.143.182.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_speednode_0035, server: 38.95.233.82, port: 80, type: vmess, cipher: auto, uuid: 34d79d0b-d5af-4a33-dc57-11cac68e24ed, alterId: 0, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {host: 38.95.233.82}}}
+  - {name: US_speednode_0036, server: 216.52.183.243, port: 1002, type: ss, cipher: aes-128-gcm, client-fingerprint: chrome, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, tfo: false}
+  - {name: US_speednode_0037, server: 216.52.183.243, port: 1002, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
 proxy-groups:
 - name: Proxy
   type: select
@@ -87,28 +73,14 @@ proxy-groups:
   - CN_speednode_0027
   - CN_speednode_0028
   - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - CN_speednode_0039
-  - DE_speednode_0040
-  - HK_speednode_0041
-  - HK_speednode_0042
-  - KR_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - UA_speednode_0046
-  - UA_speednode_0047
-  - UA_speednode_0048
-  - UA_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
+  - DE_speednode_0030
+  - HK_speednode_0031
+  - HK_speednode_0032
+  - KR_speednode_0033
+  - SG_speednode_0034
+  - US_speednode_0035
+  - US_speednode_0036
+  - US_speednode_0037
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -141,28 +113,14 @@ proxy-groups:
   - CN_speednode_0027
   - CN_speednode_0028
   - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - CN_speednode_0039
-  - DE_speednode_0040
-  - HK_speednode_0041
-  - HK_speednode_0042
-  - KR_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - UA_speednode_0046
-  - UA_speednode_0047
-  - UA_speednode_0048
-  - UA_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
+  - DE_speednode_0030
+  - HK_speednode_0031
+  - HK_speednode_0032
+  - KR_speednode_0033
+  - SG_speednode_0034
+  - US_speednode_0035
+  - US_speednode_0036
+  - US_speednode_0037
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
