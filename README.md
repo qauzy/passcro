@@ -8,7 +8,7 @@
 
 
 国家（地区）代号：
-<code>
+<tb>
 <li>A1:    <span>Anonymous Proxy</span></li>
 <li>A2:    <span>Satellite Provider</span></li>
 <li>O1:    <span>Other Country</span></li>
@@ -263,6 +263,6 @@
 <li>ZA:    <span>South Africa</span></li>
 <li>ZM:    <span>Zambia</span></li>
 <li>ZW:    <span>Zimbabwe</span></li>
-</code>
+</tb>
 
 
