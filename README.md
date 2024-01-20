@@ -108,7 +108,7 @@ GT: <span>"Guatemala"</span>
 GU: <span>"Guam"</span>
 GW: <span>"Guinea-Bissau"</span>
 GY: <span>"Guyana"</span>
-HK: <span>"Hong Kong"</span>
+HK: <span>"Hong Kong of China"</span>
 HM: <span>"Heard Island and McDonald Islands"</span>
 HN: <span>"Honduras"</span>
 HR: <span>"Croatia"</span>
@@ -241,7 +241,7 @@ TO: <span>"Tonga"</span>
 TR: <span>"Turkey"</span>
 TT: <span>"Trinidad and Tobago"</span>
 TV: <span>"Tuvalu"</span>
-TW: <span>"Taiwan"</span>
+TW: <span>"Taiwan of China"</span>
 TZ: <span>"Tanzania, United Republic of"</span>
 UA: <span>"Ukraine"</span>
 UG: <span>"Uganda"</span>
