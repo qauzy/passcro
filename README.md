@@ -8,7 +8,6 @@
 
 
 国家（地区）代号：
-
 <code>
 A1: <span>Anonymous Proxy</span>
 A2: <span>Satellite Provider</span>
