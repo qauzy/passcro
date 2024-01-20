@@ -9,7 +9,6 @@
 
 国家（地区）代号：
 
-
 A1,<span>"Anonymous Proxy"</span>
 A2,<span>"Satellite Provider"</span>
 O1,<span>"Other Country"</span>
