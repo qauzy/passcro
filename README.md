@@ -9,260 +9,260 @@
 
 国家（地区）代号：
 <tb>
-<li>A1:    <span>Anonymous Proxy</span></li>
-<li>A2:    <span>Satellite Provider</span></li>
-<li>O1:    <span>Other Country</span></li>
-<li>AD:    <span>Andorra</span></li>
-<li>AE:    <span>United Arab Emirates</span></li>
-<li>AF:    <span>Afghanistan</span></li>
-<li>AG:    <span>Antigua and Barbuda</span></li>
-<li>AI:    <span>Anguilla</span></li>
-<li>AL:    <span>Albania</span></li>
-<li>AM:    <span>Armenia</span></li>
-<li>AO:    <span>Angola</span></li>
-<li>AP:    <span>Asia/Pacific Region</span></li>
-<li>AQ:    <span>Antarctica</span></li>
-<li>AR:    <span>Argentina</span></li>
-<li>AS:    <span>American Samoa</span></li>
-<li>AT:    <span>Austria</span></li>
-<li>AU:    <span>Australia</span></li>
-<li>AW:    <span>Aruba</span></li>
-<li>AX:    <span>Aland Islands</span></li>
-<li>AZ:    <span>Azerbaijan</span></li>
-<li>BA:    <span>Bosnia and Herzegovina</span></li>
-<li>BB:    <span>Barbados</span></li>
-<li>BD:    <span>Bangladesh</span></li>
-<li>BE:    <span>Belgium</span></li>
-<li>BF:    <span>Burkina Faso</span></li>
-<li>BG:    <span>Bulgaria</span></li>
-<li>BH:    <span>Bahrain</span></li>
-<li>BI:    <span>Burundi</span></li>
-<li>BJ:    <span>Benin</span></li>
-<li>BL:    <span>Saint Barthelemy</span></li>
-<li>BM:    <span>Bermuda</span></li>
-<li>BN:    <span>Brunei Darussalam</span></li>
-<li>BO:    <span>Bolivia</span></li>
-<li>BQ:    <span>Bonaire, Saint Eustatius and Saba</span></li>
-<li>BR:    <span>Brazil</span></li>
-<li>BS:    <span>Bahamas</span></li>
-<li>BT:    <span>Bhutan</span></li>
-<li>BV:    <span>Bouvet Island</span></li>
-<li>BW:    <span>Botswana</span></li>
-<li>BY:    <span>Belarus</span></li>
-<li>BZ:    <span>Belize</span></li>
-<li>CA:    <span>Canada</span></li>
-<li>CC:    <span>Cocos (Keeling) Islands</span></li>
-<li>CD:    <span>Congo, The Democratic Republic of the</span></li>
-<li>CF:    <span>Central African Republic</span></li>
-<li>CG:    <span>Congo</span></li>
-<li>CH:    <span>Switzerland</span></li>
-<li>CI:    <span>Cote d'Ivoire</span></li>
-<li>CK:    <span>Cook Islands</span></li>
-<li>CL:    <span>Chile</span></li>
-<li>CM:    <span>Cameroon</span></li>
-<li>CN:    <span>China</span></li>
-<li>CO:    <span>Colombia</span></li>
-<li>CR:    <span>Costa Rica</span></li>
-<li>CU:    <span>Cuba</span></li>
-<li>CV:    <span>Cape Verde</span></li>
-<li>CW:    <span>Curacao</span></li>
-<li>CX:    <span>Christmas Island</span></li>
-<li>CY:    <span>Cyprus</span></li>
-<li>CZ:    <span>Czech Republic</span></li>
-<li>DE:    <span>Germany</span></li>
-<li>DJ:    <span>Djibouti</span></li>
-<li>DK:    <span>Denmark</span></li>
-<li>DM:    <span>Dominica</span></li>
-<li>DO:    <span>Dominican Republic</span></li>
-<li>DZ:    <span>Algeria</span></li>
-<li>EC:    <span>Ecuador</span></li>
-<li>EE:    <span>Estonia</span></li>
-<li>EG:    <span>Egypt</span></li>
-<li>EH:    <span>Western Sahara</span></li>
-<li>ER:    <span>Eritrea</span></li>
-<li>ES:    <span>Spain</span></li>
-<li>ET:    <span>Ethiopia</span></li>
-<li>EU:    <span>Europe</span></li>
-<li>FI:    <span>Finland</span></li>
-<li>FJ:    <span>Fiji</span></li>
-<li>FK:    <span>Falkland Islands (Malvinas)</span></li>
-<li>FM:    <span>Micronesia, Federated States of</span></li>
-<li>FO:    <span>Faroe Islands</span></li>
-<li>FR:    <span>France</span></li>
-<li>GA:    <span>Gabon</span></li>
-<li>GB:    <span>United Kingdom</span></li>
-<li>GD:    <span>Grenada</span></li>
-<li>GE:    <span>Georgia</span></li>
-<li>GF:    <span>French Guiana</span></li>
-<li>GG:    <span>Guernsey</span></li>
-<li>GH:    <span>Ghana</span></li>
-<li>GI:    <span>Gibraltar</span></li>
-<li>GL:    <span>Greenland</span></li>
-<li>GM:    <span>Gambia</span></li>
-<li>GN:    <span>Guinea</span></li>
-<li>GP:    <span>Guadeloupe</span></li>
-<li>GQ:    <span>Equatorial Guinea</span></li>
-<li>GR:    <span>Greece</span></li>
-<li>GS:    <span>South Georgia and the South Sandwich Islands</span></li>
-<li>GT:    <span>Guatemala</span></li>
-<li>GU:    <span>Guam</span></li>
-<li>GW:    <span>Guinea-Bissau</span></li>
-<li>GY:    <span>Guyana</span></li>
-<li>HK:    <span>Hong Kong of China</span></li>
-<li>HM:    <span>Heard Island and McDonald Islands</span></li>
-<li>HN:    <span>Honduras</span></li>
-<li>HR:    <span>Croatia</span></li>
-<li>HT:    <span>Haiti</span></li>
-<li>HU:    <span>Hungary</span></li>
-<li>ID:    <span>Indonesia</span></li>
-<li>IE:    <span>Ireland</span></li>
-<li>IL:    <span>Israel</span></li>
-<li>IM:    <span>Isle of Man</span></li>
-<li>IN:    <span>India</span></li>
-<li>IO:    <span>British Indian Ocean Territory</span></li>
-<li>IQ:    <span>Iraq</span></li>
-<li>IR:    <span>Iran, Islamic Republic of</span></li>
-<li>IS:    <span>Iceland</span></li>
-<li>IT:    <span>Italy</span></li>
-<li>JE:    <span>Jersey</span></li>
-<li>JM:    <span>Jamaica</span></li>
-<li>JO:    <span>Jordan</span></li>
-<li>JP:    <span>Japan</span></li>
-<li>KE:    <span>Kenya</span></li>
-<li>KG:    <span>Kyrgyzstan</span></li>
-<li>KH:    <span>Cambodia</span></li>
-<li>KI:    <span>Kiribati</span></li>
-<li>KM:    <span>Comoros</span></li>
-<li>KN:    <span>Saint Kitts and Nevis</span></li>
-<li>KP:    <span>Korea, Democratic People's Republic of</span></li>
-<li>KR:    <span>Korea, Republic of</span></li>
-<li>KW:    <span>Kuwait</span></li>
-<li>KY:    <span>Cayman Islands</span></li>
-<li>KZ:    <span>Kazakhstan</span></li>
-<li>LA:    <span>Lao People's Democratic Republic</span></li>
-<li>LB:    <span>Lebanon</span></li>
-<li>LC:    <span>Saint Lucia</span></li>
-<li>LI:    <span>Liechtenstein</span></li>
-<li>LK:    <span>Sri Lanka</span></li>
-<li>LR:    <span>Liberia</span></li>
-<li>LS:    <span>Lesotho</span></li>
-<li>LT:    <span>Lithuania</span></li>
-<li>LU:    <span>Luxembourg</span></li>
-<li>LV:    <span>Latvia</span></li>
-<li>LY:    <span>Libyan Arab Jamahiriya</span></li>
-<li>MA:    <span>Morocco</span></li>
-<li>MC:    <span>Monaco</span></li>
-<li>MD:    <span>Moldova, Republic of</span></li>
-<li>ME:    <span>Montenegro</span></li>
-<li>MF:    <span>Saint Martin</span></li>
-<li>MG:    <span>Madagascar</span></li>
-<li>MH:    <span>Marshall Islands</span></li>
-<li>MK:    <span>Macedonia</span></li>
-<li>ML:    <span>Mali</span></li>
-<li>MM:    <span>Myanmar</span></li>
-<li>MN:    <span>Mongolia</span></li>
-<li>MO:    <span>Macao</span></li>
-<li>MP:    <span>Northern Mariana Islands</span></li>
-<li>MQ:    <span>Martinique</span></li>
-<li>MR:    <span>Mauritania</span></li>
-<li>MS:    <span>Montserrat</span></li>
-<li>MT:    <span>Malta</span></li>
-<li>MU:    <span>Mauritius</span></li>
-<li>MV:    <span>Maldives</span></li>
-<li>MW:    <span>Malawi</span></li>
-<li>MX:    <span>Mexico</span></li>
-<li>MY:    <span>Malaysia</span></li>
-<li>MZ:    <span>Mozambique</span></li>
-<li>NA:    <span>Namibia</span></li>
-<li>NC:    <span>New Caledonia</span></li>
-<li>NE:    <span>Niger</span></li>
-<li>NF:    <span>Norfolk Island</span></li>
-<li>NG:    <span>Nigeria</span></li>
-<li>NI:    <span>Nicaragua</span></li>
-<li>NL:    <span>Netherlands</span></li>
-<li>NO:    <span>Norway</span></li>
-<li>NP:    <span>Nepal</span></li>
-<li>NR:    <span>Nauru</span></li>
-<li>NU:    <span>Niue</span></li>
-<li>NZ:    <span>New Zealand</span></li>
-<li>OM:    <span>Oman</span></li>
-<li>PA:    <span>Panama</span></li>
-<li>PE:    <span>Peru</span></li>
-<li>PF:    <span>French Polynesia</span></li>
-<li>PG:    <span>Papua New Guinea</span></li>
-<li>PH:    <span>Philippines</span></li>
-<li>PK:    <span>Pakistan</span></li>
-<li>PL:    <span>Poland</span></li>
-<li>PM:    <span>Saint Pierre and Miquelon</span></li>
-<li>PN:    <span>Pitcairn</span></li>
-<li>PR:    <span>Puerto Rico</span></li>
-<li>PS:    <span>Palestinian Territory</span></li>
-<li>PT:    <span>Portugal</span></li>
-<li>PW:    <span>Palau</span></li>
-<li>PY:    <span>Paraguay</span></li>
-<li>QA:    <span>Qatar</span></li>
-<li>RE:    <span>Reunion</span></li>
-<li>RO:    <span>Romania</span></li>
-<li>RS:    <span>Serbia</span></li>
-<li>RU:    <span>Russian Federation</span></li>
-<li>RW:    <span>Rwanda</span></li>
-<li>SA:    <span>Saudi Arabia</span></li>
-<li>SB:    <span>Solomon Islands</span></li>
-<li>SC:    <span>Seychelles</span></li>
-<li>SD:    <span>Sudan</span></li>
-<li>SE:    <span>Sweden</span></li>
-<li>SG:    <span>Singapore</span></li>
-<li>SH:    <span>Saint Helena</span></li>
-<li>SI:    <span>Slovenia</span></li>
-<li>SJ:    <span>Svalbard and Jan Mayen</span></li>
-<li>SK:    <span>Slovakia</span></li>
-<li>SL:    <span>Sierra Leone</span></li>
-<li>SM:    <span>San Marino</span></li>
-<li>SN:    <span>Senegal</span></li>
-<li>SO:    <span>Somalia</span></li>
-<li>SR:    <span>Suriname</span></li>
-<li>SS:    <span>South Sudan</span></li>
-<li>ST:    <span>Sao Tome and Principe</span></li>
-<li>SV:    <span>El Salvador</span></li>
-<li>SX:    <span>Sint Maarten</span></li>
-<li>SY:    <span>Syrian Arab Republic</span></li>
-<li>SZ:    <span>Swaziland</span></li>
-<li>TC:    <span>Turks and Caicos Islands</span></li>
-<li>TD:    <span>Chad</span></li>
-<li>TF:    <span>French Southern Territories</span></li>
-<li>TG:    <span>Togo</span></li>
-<li>TH:    <span>Thailand</span></li>
-<li>TJ:    <span>Tajikistan</span></li>
-<li>TK:    <span>Tokelau</span></li>
-<li>TL:    <span>Timor-Leste</span></li>
-<li>TM:    <span>Turkmenistan</span></li>
-<li>TN:    <span>Tunisia</span></li>
-<li>TO:    <span>Tonga</span></li>
-<li>TR:    <span>Turkey</span></li>
-<li>TT:    <span>Trinidad and Tobago</span></li>
-<li>TV:    <span>Tuvalu</span></li>
-<li>TW:    <span>Taiwan of China</span></li>
-<li>TZ:    <span>Tanzania, United Republic of</span></li>
-<li>UA:    <span>Ukraine</span></li>
-<li>UG:    <span>Uganda</span></li>
-<li>UM:    <span>United States Minor Outlying Islands</span></li>
-<li>US:    <span>United States</span></li>
-<li>UY:    <span>Uruguay</span></li>
-<li>UZ:    <span>Uzbekistan</span></li>
-<li>VA:    <span>Holy See (Vatican City State)</span></li>
-<li>VC:    <span>Saint Vincent and the Grenadines</span></li>
-<li>VE:    <span>Venezuela</span></li>
-<li>VG:    <span>Virgin Islands, British</span></li>
-<li>VI:    <span>Virgin Islands, U.S.</span></li>
-<li>VN:    <span>Vietnam</span></li>
-<li>VU:    <span>Vanuatu</span></li>
-<li>WF:    <span>Wallis and Futuna</span></li>
-<li>WS:    <span>Samoa</span></li>
-<li>YE:    <span>Yemen</span></li>
-<li>YT:    <span>Mayotte</span></li>
-<li>ZA:    <span>South Africa</span></li>
-<li>ZM:    <span>Zambia</span></li>
-<li>ZW:    <span>Zimbabwe</span></li>
+<li>A1:    Anonymous Proxy</li>
+<li>A2:    Satellite Provider</li>
+<li>O1:    Other Country</li>
+<li>AD:    Andorra</li>
+<li>AE:    United Arab Emirates</li>
+<li>AF:    Afghanistan</li>
+<li>AG:    Antigua and Barbuda</li>
+<li>AI:    Anguilla</li>
+<li>AL:    Albania</li>
+<li>AM:    Armenia</li>
+<li>AO:    Angola</li>
+<li>AP:    Asia/Pacific Region</li>
+<li>AQ:    Antarctica</li>
+<li>AR:    Argentina</li>
+<li>AS:    American Samoa</li>
+<li>AT:    Austria</li>
+<li>AU:    Australia</li>
+<li>AW:    Aruba</li>
+<li>AX:    Aland Islands</li>
+<li>AZ:    Azerbaijan</li>
+<li>BA:    Bosnia and Herzegovina</li>
+<li>BB:    Barbados</li>
+<li>BD:    Bangladesh</li>
+<li>BE:    Belgium</li>
+<li>BF:    Burkina Faso</li>
+<li>BG:    Bulgaria</li>
+<li>BH:    Bahrain</li>
+<li>BI:    Burundi</li>
+<li>BJ:    Benin</li>
+<li>BL:    Saint Barthelemy</li>
+<li>BM:    Bermuda</li>
+<li>BN:    Brunei Darussalam</li>
+<li>BO:    Bolivia</li>
+<li>BQ:    Bonaire, Saint Eustatius and Saba</li>
+<li>BR:    Brazil</li>
+<li>BS:    Bahamas</li>
+<li>BT:    Bhutan</li>
+<li>BV:    Bouvet Island</li>
+<li>BW:    Botswana</li>
+<li>BY:    Belarus</li>
+<li>BZ:    Belize</li>
+<li>CA:    Canada</li>
+<li>CC:    Cocos (Keeling) Islands</li>
+<li>CD:    Congo, The Democratic Republic of the</li>
+<li>CF:    Central African Republic</li>
+<li>CG:    Congo</li>
+<li>CH:    Switzerland</li>
+<li>CI:    Cote d'Ivoire</li>
+<li>CK:    Cook Islands</li>
+<li>CL:    Chile</li>
+<li>CM:    Cameroon</li>
+<li>CN:    China</li>
+<li>CO:    Colombia</li>
+<li>CR:    Costa Rica</li>
+<li>CU:    Cuba</li>
+<li>CV:    Cape Verde</li>
+<li>CW:    Curacao</li>
+<li>CX:    Christmas Island</li>
+<li>CY:    Cyprus</li>
+<li>CZ:    Czech Republic</li>
+<li>DE:    Germany</li>
+<li>DJ:    Djibouti</li>
+<li>DK:    Denmark</li>
+<li>DM:    Dominica</li>
+<li>DO:    Dominican Republic</li>
+<li>DZ:    Algeria</li>
+<li>EC:    Ecuador</li>
+<li>EE:    Estonia</li>
+<li>EG:    Egypt</li>
+<li>EH:    Western Sahara</li>
+<li>ER:    Eritrea</li>
+<li>ES:    Spain</li>
+<li>ET:    Ethiopia</li>
+<li>EU:    Europe</li>
+<li>FI:    Finland</li>
+<li>FJ:    Fiji</li>
+<li>FK:    Falkland Islands (Malvinas)</li>
+<li>FM:    Micronesia, Federated States of</li>
+<li>FO:    Faroe Islands</li>
+<li>FR:    France</li>
+<li>GA:    Gabon</li>
+<li>GB:    United Kingdom</li>
+<li>GD:    Grenada</li>
+<li>GE:    Georgia</li>
+<li>GF:    French Guiana</li>
+<li>GG:    Guernsey</li>
+<li>GH:    Ghana</li>
+<li>GI:    Gibraltar</li>
+<li>GL:    Greenland</li>
+<li>GM:    Gambia</li>
+<li>GN:    Guinea</li>
+<li>GP:    Guadeloupe</li>
+<li>GQ:    Equatorial Guinea</li>
+<li>GR:    Greece</li>
+<li>GS:    South Georgia and the South Sandwich Islands</li>
+<li>GT:    Guatemala</li>
+<li>GU:    Guam</li>
+<li>GW:    Guinea-Bissau</li>
+<li>GY:    Guyana</li>
+<li>HK:    Hong Kong of China</li>
+<li>HM:    Heard Island and McDonald Islands</li>
+<li>HN:    Honduras</li>
+<li>HR:    Croatia</li>
+<li>HT:    Haiti</li>
+<li>HU:    Hungary</li>
+<li>ID:    Indonesia</li>
+<li>IE:    Ireland</li>
+<li>IL:    Israel</li>
+<li>IM:    Isle of Man</li>
+<li>IN:    India</li>
+<li>IO:    British Indian Ocean Territory</li>
+<li>IQ:    Iraq</li>
+<li>IR:    Iran, Islamic Republic of</li>
+<li>IS:    Iceland</li>
+<li>IT:    Italy</li>
+<li>JE:    Jersey</li>
+<li>JM:    Jamaica</li>
+<li>JO:    Jordan</li>
+<li>JP:    Japan</li>
+<li>KE:    Kenya</li>
+<li>KG:    Kyrgyzstan</li>
+<li>KH:    Cambodia</li>
+<li>KI:    Kiribati</li>
+<li>KM:    Comoros</li>
+<li>KN:    Saint Kitts and Nevis</li>
+<li>KP:    Korea, Democratic People's Republic of</li>
+<li>KR:    Korea, Republic of</li>
+<li>KW:    Kuwait</li>
+<li>KY:    Cayman Islands</li>
+<li>KZ:    Kazakhstan</li>
+<li>LA:    Lao People's Democratic Republic</li>
+<li>LB:    Lebanon</li>
+<li>LC:    Saint Lucia</li>
+<li>LI:    Liechtenstein</li>
+<li>LK:    Sri Lanka</li>
+<li>LR:    Liberia</li>
+<li>LS:    Lesotho</li>
+<li>LT:    Lithuania</li>
+<li>LU:    Luxembourg</li>
+<li>LV:    Latvia</li>
+<li>LY:    Libyan Arab Jamahiriya</li>
+<li>MA:    Morocco</li>
+<li>MC:    Monaco</li>
+<li>MD:    Moldova, Republic of</li>
+<li>ME:    Montenegro</li>
+<li>MF:    Saint Martin</li>
+<li>MG:    Madagascar</li>
+<li>MH:    Marshall Islands</li>
+<li>MK:    Macedonia</li>
+<li>ML:    Mali</li>
+<li>MM:    Myanmar</li>
+<li>MN:    Mongolia</li>
+<li>MO:    Macao</li>
+<li>MP:    Northern Mariana Islands</li>
+<li>MQ:    Martinique</li>
+<li>MR:    Mauritania</li>
+<li>MS:    Montserrat</li>
+<li>MT:    Malta</li>
+<li>MU:    Mauritius</li>
+<li>MV:    Maldives</li>
+<li>MW:    Malawi</li>
+<li>MX:    Mexico</li>
+<li>MY:    Malaysia</li>
+<li>MZ:    Mozambique</li>
+<li>NA:    Namibia</li>
+<li>NC:    New Caledonia</li>
+<li>NE:    Niger</li>
+<li>NF:    Norfolk Island</li>
+<li>NG:    Nigeria</li>
+<li>NI:    Nicaragua</li>
+<li>NL:    Netherlands</li>
+<li>NO:    Norway</li>
+<li>NP:    Nepal</li>
+<li>NR:    Nauru</li>
+<li>NU:    Niue</li>
+<li>NZ:    New Zealand</li>
+<li>OM:    Oman</li>
+<li>PA:    Panama</li>
+<li>PE:    Peru</li>
+<li>PF:    French Polynesia</li>
+<li>PG:    Papua New Guinea</li>
+<li>PH:    Philippines</li>
+<li>PK:    Pakistan</li>
+<li>PL:    Poland</li>
+<li>PM:    Saint Pierre and Miquelon</li>
+<li>PN:    Pitcairn</li>
+<li>PR:    Puerto Rico</li>
+<li>PS:    Palestinian Territory</li>
+<li>PT:    Portugal</li>
+<li>PW:    Palau</li>
+<li>PY:    Paraguay</li>
+<li>QA:    Qatar</li>
+<li>RE:    Reunion</li>
+<li>RO:    Romania</li>
+<li>RS:    Serbia</li>
+<li>RU:    Russian Federation</li>
+<li>RW:    Rwanda</li>
+<li>SA:    Saudi Arabia</li>
+<li>SB:    Solomon Islands</li>
+<li>SC:    Seychelles</li>
+<li>SD:    Sudan</li>
+<li>SE:    Sweden</li>
+<li>SG:    Singapore</li>
+<li>SH:    Saint Helena</li>
+<li>SI:    Slovenia</li>
+<li>SJ:    Svalbard and Jan Mayen</li>
+<li>SK:    Slovakia</li>
+<li>SL:    Sierra Leone</li>
+<li>SM:    San Marino</li>
+<li>SN:    Senegal</li>
+<li>SO:    Somalia</li>
+<li>SR:    Suriname</li>
+<li>SS:    South Sudan</li>
+<li>ST:    Sao Tome and Principe</li>
+<li>SV:    El Salvador</li>
+<li>SX:    Sint Maarten</li>
+<li>SY:    Syrian Arab Republic</li>
+<li>SZ:    Swaziland</li>
+<li>TC:    Turks and Caicos Islands</li>
+<li>TD:    Chad</li>
+<li>TF:    French Southern Territories</li>
+<li>TG:    Togo</li>
+<li>TH:    Thailand</li>
+<li>TJ:    Tajikistan</li>
+<li>TK:    Tokelau</li>
+<li>TL:    Timor-Leste</li>
+<li>TM:    Turkmenistan</li>
+<li>TN:    Tunisia</li>
+<li>TO:    Tonga</li>
+<li>TR:    Turkey</li>
+<li>TT:    Trinidad and Tobago</li>
+<li>TV:    Tuvalu</li>
+<li>TW:    Taiwan of China</li>
+<li>TZ:    Tanzania, United Republic of</li>
+<li>UA:    Ukraine</li>
+<li>UG:    Uganda</li>
+<li>UM:    United States Minor Outlying Islands</li>
+<li>US:    United States</li>
+<li>UY:    Uruguay</li>
+<li>UZ:    Uzbekistan</li>
+<li>VA:    Holy See (Vatican City State)</li>
+<li>VC:    Saint Vincent and the Grenadines</li>
+<li>VE:    Venezuela</li>
+<li>VG:    Virgin Islands, British</li>
+<li>VI:    Virgin Islands, U.S.</li>
+<li>VN:    Vietnam</li>
+<li>VU:    Vanuatu</li>
+<li>WF:    Wallis and Futuna</li>
+<li>WS:    Samoa</li>
+<li>YE:    Yemen</li>
+<li>YT:    Mayotte</li>
+<li>ZA:    South Africa</li>
+<li>ZM:    Zambia</li>
+<li>ZW:    Zimbabwe</li>
 </tb>
 
 
