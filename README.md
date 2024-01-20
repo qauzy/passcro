@@ -9,6 +9,7 @@
 
 国家（地区）代号：
 
+<code>
 A1,<span>"Anonymous Proxy"</span>
 A2,<span>"Satellite Provider"</span>
 O1,<span>"Other Country"</span>
@@ -262,5 +263,6 @@ YE,<span>"Yemen"</span>
 YT,<span>"Mayotte"</span>
 ZA,<span>"South Africa"</span>
 ZM,<span>"Zambia"</span>
-ZW,<span>"Zimbabwe"</span></code>
+ZW,<span>"Zimbabwe"</span>
+</code>
 
