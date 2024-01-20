@@ -7,6 +7,7 @@
 订阅地址：https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
 
 
+国家（地区）代号：
 A1,"Anonymous Proxy"
 A2,"Satellite Provider"
 O1,"Other Country"
