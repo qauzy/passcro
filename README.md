@@ -161,7 +161,7 @@
 <li>ML:&ensp;Mali</li>
 <li>MM:&ensp;Myanmar</li>
 <li>MN:&ensp;Mongolia</li>
-<li>MO:&ensp;Macao</li>
+<li>MO:&ensp;Macao of China</li>
 <li>MP:&ensp;Northern Mariana Islands</li>
 <li>MQ:&ensp;Martinique</li>
 <li>MR:&ensp;Mauritania</li>
